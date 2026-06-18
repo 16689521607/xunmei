@@ -106,7 +106,7 @@
             copyText(this, text);
         });
         document.getElementById('copy-faq-14').addEventListener('click', function() {
-            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~";
+            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~\n\n💡 长住客人温馨提示：入住2天以上（含2天）特别是长租的客人，使用厨房后请在退房前收拾干净厨房台面及墙面，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！";
             copyText(this, text);
         });
         document.getElementById('copy-faq-15').addEventListener('click', function() {
@@ -138,7 +138,7 @@
             copyText(this, text);
         });
         document.getElementById('copy-faq-22').addEventListener('click', function() {
-            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。";
+            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n\n如您咨询长租问题，请告知您的（缺一不可）：\n1. 入住时间（几月几号到几月几号）\n2. 房型（大床，一居，两居，4-6人数）\n3. 预算与要求";
             copyText(this, text);
         });
         document.getElementById('copy-faq-23').addEventListener('click', function() {
@@ -649,6 +649,42 @@
                             </div>
                         </div>
 
+                        <!-- 门锁及电闸开启指引 -->
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800 flex items-center">
+                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">7</span>
+                                    如何开启门锁及电闸
+                                </h3>
+                                <button onclick="copyText(this, '您好，以下是门锁和电闸的开启视频指引：\n1. 密码开门：输入密码按#号键即可开门\n2. 房门反锁：进入房间后，门把手向上抬即可反锁\n3. 电闸开启：电闸在入户门口，向上推即可通电')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p class="mb-3">您好，以下是门锁和电闸的操作视频指引，您可以参考：</p>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                                    <div class="bg-white rounded-lg p-2 border border-orange-100">
+                                        <video controls class="w-full aspect-video object-cover rounded" preload="none">
+                                            <source src="v12.mp4" type="video/mp4">
+                                        </video>
+                                        <p class="text-center text-xs text-gray-600 mt-2">密码开门</p>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-2 border border-orange-100">
+                                        <video controls class="w-full aspect-video object-cover rounded" preload="none">
+                                            <source src="v1.mp4" type="video/mp4">
+                                        </video>
+                                        <p class="text-center text-xs text-gray-600 mt-2">房门反锁</p>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-2 border border-orange-100">
+                                        <video controls class="w-full aspect-video object-cover rounded" preload="none">
+                                            <source src="v5.mp4" type="video/mp4">
+                                        </video>
+                                        <p class="text-center text-xs text-gray-600 mt-2">电闸开启</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- 第7步 -->
                         <div class="bg-white rounded-xl card-shadow p-5">
                             <div class="flex items-center justify-between mb-3">
@@ -666,6 +702,30 @@
                             <!-- 图片 -->
                             <div class="mt-4 flex justify-center">
                                 <img src="step-7.jpg" alt="第7步" class="cursor-pointer max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'" onclick="showPreview(this.src)">
+                            </div>
+                        </div>
+
+                        <!-- 主动询问好评福利 -->
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800 flex items-center">
+                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">8</span>
+                                    主动询问好评福利
+                                </h3>
+                                <button onclick="copyText(this, '亲爱的客人~您真是太有眼光啦，选择我们这么美的海景民宿！😘\n对了，跟您说个小福利哦~如果您退房后能帮我们写一个（图片+文字的）全五星好评，我们可以免费给您租用赶海工具一套，或者送您一份便携早餐，二选一哦~\n您看需要哪个呀？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-pink-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p class="mb-2"><strong>💡 主动询问时机：</strong>客人入住后或聊天时，主动提起</p>
+                                <p class="mb-2"><strong>🎯 目的：</strong>引导全五星好评，提升好评率</p>
+                                <p class="mb-3"><strong>💬 参考话术：</strong></p>
+                                <div class="bg-white rounded-lg p-3 border border-pink-100">
+                                    <p class="text-gray-600">亲爱的客人~您真是太有眼光啦，选择我们这么美的海景民宿！😘</p>
+                                    <p class="text-gray-600 mt-2">对了，跟您说个小福利哦~如果您退房后能帮我们写一个（图片+文字的）全五星好评，我们可以免费给您租用赶海工具一套，或者送您一份便携早餐，二选一哦~</p>
+                                    <p class="text-gray-600 mt-2">您看需要哪个呀？</p>
+                                </div>
+                                <p class="mt-3 text-xs text-gray-500">* 注意：是免费租用/赠送，需要客人用全五星好评兑换哦</p>
                             </div>
                         </div>
 
@@ -923,6 +983,7 @@
                             <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
                                 <p>如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。</p>
                                 <p class="mt-2">续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~</p>
+                                <p class="mt-2"><strong>💡 长住客人温馨提示：</strong>入住2天以上（含2天）特别是长租的客人，使用厨房后请在退房前收拾干净厨房台面及墙面，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！</p>
                             </div>
                         </div>
                         
@@ -1026,7 +1087,10 @@
                             </div>
                             <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
                                 <p>如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；</p>
-                                <p class="mt-2">如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。</p>
+                                <p class="mt-2">如您咨询长租问题，请告知您的（缺一不可）：</p>
+                                <p class="mt-1">1. 入住时间（几月几号到几月几号）</p>
+                                <p class="mt-1">2. 房型（大床，一居，两居，4-6人数）</p>
+                                <p class="mt-1">3. 预算与要求</p>
                             </div>
                         </div>
                         
@@ -2369,7 +2433,7 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
             copyText(this, text);
         });
         document.getElementById('copy-faq-14').addEventListener('click', function() {
-            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~";
+            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~\n\n💡 长住客人温馨提示：入住2天以上（含2天）特别是长租的客人，使用厨房后请在退房前收拾干净厨房台面及墙面，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！";
             copyText(this, text);
         });
         document.getElementById('copy-faq-15').addEventListener('click', function() {
@@ -2401,7 +2465,7 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
             copyText(this, text);
         });
         document.getElementById('copy-faq-22').addEventListener('click', function() {
-            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。";
+            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n\n如您咨询长租问题，请告知您的（缺一不可）：\n1. 入住时间（几月几号到几月几号）\n2. 房型（大床，一居，两居，4-6人数）\n3. 预算与要求";
             copyText(this, text);
         });
         document.getElementById('copy-faq-23').addEventListener('click', function() {
@@ -2601,7 +2665,7 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
             copyText(this, text);
         });
         document.getElementById('copy-faq-14').addEventListener('click', function() {
-            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~";
+            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~\n\n💡 长住客人温馨提示：入住2天以上（含2天）特别是长租的客人，使用厨房后请在退房前收拾干净厨房台面及墙面，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！";
             copyText(this, text);
         });
         document.getElementById('copy-faq-15').addEventListener('click', function() {
@@ -2633,7 +2697,7 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
             copyText(this, text);
         });
         document.getElementById('copy-faq-22').addEventListener('click', function() {
-            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。";
+            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n\n如您咨询长租问题，请告知您的（缺一不可）：\n1. 入住时间（几月几号到几月几号）\n2. 房型（大床，一居，两居，4-6人数）\n3. 预算与要求";
             copyText(this, text);
         });
         document.getElementById('copy-faq-23').addEventListener('click', function() {
