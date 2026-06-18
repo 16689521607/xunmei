@@ -25,7 +25,230 @@
                 }
             }
         }
+
+        // 常见问题复制按钮绑定事件（绝对管用！）
+        document.getElementById('copy-faq-1').addEventListener('click', function() {
+            var text = "21栋(21栋412/413除外)和22栋(22栋220除外)：空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯即可\n23栋：墙壁电源键，点击即可\n挂式空调：使用遥控器（通用款），如打不开可能是遥控器没电\n⚠️ 注意：空调仅有制冷功能！先调25℃吹30分钟，再调16℃";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-2').addEventListener('click', function() {
+            var text = "先打开墙壁上的空气开关，再按热水器遥控器开关键，等待30分钟即可使用\n⚠️ 注意：水温请勿超过50℃，避免烫伤";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-3').addEventListener('click', function() {
+            var text = "电视：使用电视遥控器打开，选择HDMI1即可观看\n投影仪：先打开投影仪电源，再打开电视盒子，选择HDMI2即可\n⚠️ 注意：投影仪请勿直接断电，需用遥控器关闭后等待3分钟再断电";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-4').addEventListener('click', function() {
+            var text = "打开洗衣机门，放入衣物和洗衣液，关闭门后按电源键，再按启动键即可\n⚠️ 注意：请勿放入过多衣物，避免洗衣机损坏";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-5').addEventListener('click', function() {
+            var text = "先打开燃气阀门，再按燃气灶开关，按住3秒后松开即可点火\n⚠️ 注意：使用后请关闭燃气阀门，避免漏气";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-6').addEventListener('click', function() {
+            var text = "续住请提前1天告知，价格和之前一样，直接转账即可\n⚠️ 注意：节假日价格可能会有浮动，以实际为准";
+            copyText(this, text);
+        });
+
+        // 常见问题复制按钮（24个）
+        document.getElementById('copy-faq-1').addEventListener('click', function() {
+            var text = "正常退房时间是中午12点，如果您需要延迟退房，根据我们的规定，每延迟一小时将收取50元费用。如果您能给我们一个五星好评（图片+文字），我们可以为您免费延迟半小时退房。这是我们对您支持的小小感谢！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-2').addEventListener('click', function() {
+            var text = "WiFi名称是：China net XM+房间号，密码是：19910000。如果您连接不上，请尝试关闭手机WiFi重新连接，或者重启路由器。如果还是不行，请随时联系我们！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-3').addEventListener('click', function() {
+            var text = "入住时间是下午2点以后，退房时间是中午12点。如果您提前到达，我们可以先为您办理入住手续，行李可以放在前台，房间打扫好后我们会第一时间通知您。退房后您也可以把行李放在前台，免费寄存！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-4').addEventListener('click', function() {
+            var text = "酒店游泳池目前是收费的，38元一位，具体价格和开放时间请咨询游泳池入口。从我们民宿走到游泳池只需要2分钟，非常方便！游泳池对面就是海滩入口哦！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-5').addEventListener('click', function() {
+            var text = "小区停车位全部都是免费的！您可以停在地面，也可以停在地下停车场。充电桩在酒店区域，快充慢充都有，具体位置可以问我们。停车非常方便，不用担心！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-6').addEventListener('click', function() {
+            var text = "先到酒店区域，找到酒店游泳池，游泳池正对面就是海滩的入口！从您的房间走到海滩大约5-10分钟，全程不用出小区，非常安全方便！海滩是棋子湾最美的私人海滩哦！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-7').addEventListener('click', function() {
+            var text = "美团外卖可送达至小区房间门口，外卖地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓栋数+房间号（比如21-205号）。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-8').addEventListener('click', function() {
+            var text = "如您需要邮寄快递到民宿，地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓21栋寻美棋子湾民宿，您的名字+电话（快递只有顺丰，京东，可以送到小区，其他快递需要您到昌化镇自提。）";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-9').addEventListener('click', function() {
+            var text = "21栋（21栋412和21栋413除外）和22栋（22栋220除外）的空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯空调就打开了。\n23栋的空调电源键在墙壁上，点击电源键开关即可打开。\n21栋412，21栋413，22栋220以及套房为挂式空调，遥控器（通用款，挂式空调都可打开）即可打开空调，如空调打不开，可能是遥控器电视没电，请及时联系我。\nA.空调仅有制冷功能哦，没有制热功能，为了让空调更好的降温，请打开空调后先调至25℃吹30分钟，再将空调调至16℃（不可直接调至16℃哦）。\nB.房间内外温差大的话会造成墙壁和地板有水渍，属于正常情况，空调可以开除湿，或者开门通风就好。空调打开时门窗也需关闭，否则也会造成墙壁和地板有水渍。\nC. 如果挂式空调无法正常开启，a.请检查插头与插座是否松动，松动请重新插上。b.或长按3秒空调伴侣再重新开启空调。c. 检查电视下方的Wi-Fi机顶盒或路由器是否没有插上电。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-10').addEventListener('click', function() {
+            var text = "21栋22栋23栋均为电热水器，如按照热水器上操作指引，热水器不亮灯，无法打开热水器，请及时联系我。\n17栋18栋19栋为燃气热水器，您先观看如下视频，首先检查，厨房下燃气表，是否显示数字，其次检查热水器插座是否通电，最后按热水器屏幕开关，水池试水温。燃气热水器工作时会有比较大的声音，如调整后还是无声音无热水请及时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-11').addEventListener('click', function() {
+            var text = "21栋202，21栋506，21栋611（开关在沙发背后墙壁上），21栋810，为投影仪房间，您可先观看如下视频，按照步骤打开投影仪，F+F-可调整清晰度，找到视频中画面投影设置四边梯形校正后观看投影。\n其余房间都是电视机，其中22栋220电视开机指南为如下视频，您可先观看，按照步骤打开电视，TCL标志下方有三个按钮，长按中间按钮可以开机，确认机顶盒亮灯后，调至信号源HDMI1为数字电视，可观看直播。22栋415电视开机指南为如下视频，您可先观看，按照步骤打开电视，电视左下方有一个按钮，长按可以开机。18栋403电视开机指南为如下视频，您可先观看，按照步骤打开电视。19栋501电视开机指南为如下视频，您可先观看，按照步骤打开电视。如您还是无法打开电视找到频道，请及时联系我哦。\n如您需观看网络电视，民宿有芒果TV电视会员，您可登陆芒果TV观看，如账号过期请及时联系我登陆账号。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-12').addEventListener('click', function() {
+            var text = "洗衣液在洗衣机旁边，如您需要补充洗衣液请及时联系我，民宿的滚筒洗衣机使用指南视频如下，洗衣机开门时请看黄色警惕标识，要等待2分钟方可打开洗衣机门，如洗衣机红灯频闪，可能为进水和排水问题，检查进水总阀是否打开，检查排水管是否顺利排水，若洗衣机还是无法正常运行，请及时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-13').addEventListener('click', function() {
+            var text = "如厨房下燃气表显示燃气有剩余，且燃气热水器可正常工作有热水，但燃气灶打不开火，可能是燃气灶电池没电，请及时联系我，我们会过去更换电池。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-14').addEventListener('click', function() {
+            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-15').addEventListener('click', function() {
+            var text = "如您对房间不满意，在未使用布草（床上用品）和洗手间的前提下，可给您免费换房或退房费，换房或退房费请联系我。我们不支持钟点房需求，如您使用了布草（床上用品）和洗手间，便无法给您换房和退房费，还望您理解~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-16').addEventListener('click', function() {
+            var text = "您好，我们民宿的小程序为平台直连系统路客云app小程序，对您上传的身份信息严格保密，如有疑问可咨询平台客服，若您是在美团民宿或途家平台预定的房间，可在平台上办理入住和缴纳押金后截图发我就可以啦，我备注好信息后通知老板，给您直接发房间密码哦~\n您好，民宿需要支付押金是因为我们不是一整栋的宾馆，我们为分散开放房源，出入房间无人监控，交押金相当于门禁，目的是保护业主私人财物，还请您离开房间时关好房门，押金的退还时间是退房当日晚上8点系统自动退还，为原路返回，如您需要提前退押金，请联系我们手动给您退还，后续有任何押金问题都可随时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-17').addEventListener('click', function() {
+            var text = "布草（床单，被罩，枕套）有污渍或有毛发等卫生问题（包含房间其他卫生问题，有蚊虫蟑螂）时，需答复客人：非常抱歉，是我们打扫的失误，我尽快联系管家给您更换新布草（或我尽快联系管家过去清洁）。如果超过晚上9点，管家下班了，直接答复客人：非常抱歉，管家已下班，我现在联系老板，这边通过平台给您退30块，您看可以吗？如果客人回答\"可以\"或\"好的\"，需答复客人：好的您稍等，我们现在联系平台，后续平台也会给您打电话跟您沟通的，您注意手机电话。\n客人需要加被子和枕头时，需要答复：好的，我通知管家给您拿过去，我们直接给您放到房间里，您看可以吗？\n客人需要加床，需要答复：我们所有房间不可加床哦，如您想睡沙发的话，我们可以给您加被子和枕头，或给您推荐其他大床房。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-18').addEventListener('click', function() {
+            var text = "如您需要微波炉热饭，我们办公室在21栋205，可在早上9点上班后过来哦。\n21栋22栋23栋没有厨房用品，您可自备厨具，退房时请将厨房墙面及台面清洁干净哦，感谢您的支持与配合！\n17栋18栋19栋使用厨房，温馨提示：A.如您只入住一天，厨房不免费开火哦，入住两天以上或（图片+文字的）全全全全五星好评可免费开火。B.使用厨房后需自行清理干净，包含清洁台面及墙面，并归还原位，否则会收取50元清洁费用。C.烹饪食物时请勿离开，注意用火用电安全。感谢您的理解与配合！\n您好，使用厨房后，请在退房前收拾干净厨房台面及墙面哦，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-19').addEventListener('click', function() {
+            var text = "如客人需要增加抽纸，卷纸，牙刷，牙膏，梳子，香皂，马桶套，浴巾，垃圾袋，瓶装水，洗手液，维e乳，沐浴露，洗发水，护发素，洗衣液，插排，吹风机，驱蚊水，蚊香液，暖宝宝，碘酒，创可贴，统一回复：好的，我通知管家给您送过去，直接敲门询问，还是给您挂在房间门口呢？\n如客人需要一次性拖鞋，剃须刀，药物，统一回复：非常不好意思，我们不提供一次性拖鞋（或剃须刀，药物）。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-20').addEventListener('click', function() {
+            var text = "如客人提到房间有臭味，回复客人：好的，您稍等，我通知管家过去查看，有可能是下水道反臭，您可先打开房间窗户和门通风。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-21').addEventListener('click', function() {
+            var text = "您好，小区停车位全是免费的，充电桩是在万国酒店快充/慢充都有，快充位置，在酒店大堂对面，路面上，我发定位给您。慢充位置，在酒店负一楼，地下停车场。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-22').addEventListener('click', function() {
+            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-23').addEventListener('click', function() {
+            var text = "民宿可以带宠物入住，但不要让宠物上床和沙发，并在退房离店时收拾干净自家小可爱的随身用品哦~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-24').addEventListener('click', function() {
+            var text = "离民宿最近的是昌化镇卫生院（距离7公里左右，开车10多分钟），电话13637503990、26771799，您可先打电话咨询。也可去东方市人民医院（新院区）（距离40公里左右，开车1小时），电话38961277，您可先打电话咨询。";
+            copyText(this, text);
+        });
+        
+        // 好评问答复制按钮（7个）
+        document.getElementById('copy-review-1').addEventListener('click', function() {
+            var text = "我们入住时间为下午2点，如您需要提前办理入住，我们会生成下午2点前的房间密码，以便您出入房间，正常提前一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？\n我们退房时间为中午12点，如您需要延迟退房，我们会生成中午12点后的房间密码，以便您出入房间，正常延迟一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-2').addEventListener('click', function() {
+            var text = "比如东西有轻微损坏不影响不大，回复客人：您好，中午退房时候检查发现了××（损坏，破洞，等等）。按照赔付表格里的需要您赔付×元。但是损坏不大，您给我们写一个（图片+文字的）全全全全五星好评，就不扣您任何费用了。押金给您全额退回，希望您旅途愉快！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-3').addEventListener('click', function() {
+            var text = "我们民宿可以开发票，如果您给我们（图片+文字的）全全全全五星好评，我们可以多开发票金额（随您的要求和意愿）您退房后可以给全全全全五星好评吗？";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-4').addEventListener('click', function() {
+            var text = "我们民宿可以免费租用赶海工具需在退房后帮忙写一个五星好评\"图片+文字\"，赶海工具退房后放在房间里就可以了。或者可以送您便携早餐，需在退房后帮忙写一个（图片+文字的）全全全全五星好评，就可以了。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-5').addEventListener('click', function() {
+            var text = "退房后发现非连住客人使用厨房，回复客人：您好，我们只住一天开火费50元，因为打扫特别麻烦，但是没关系，您给我们一个（图片+文字的）全全全全五星好评)这个费用就不收您啦~请记得截图给我~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-6').addEventListener('click', function() {
+            var text = "您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付。由于地方偏远，顺丰今天或明天才能上门哦，您耐心等等（顺丰下单后，您使用提供的手机号登录顺丰小程序即可查看订单状态）。对了，您觉得我们服务满意的话，请给我们（图片+文字的）全全全全五星好评，您看可以吗？再次感谢啦~!";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-7').addEventListener('click', function() {
+            var text = "您好，这边（图片+文字的）全全全全五星好评给可以您免费升级个房型，比您之前预定房间更好，您看需要吗？";
+            copyText(this, text);
+        });
+
+        // 常见问题搜索功能（绝对可靠版）
+        document.addEventListener('DOMContentLoaded', function() {
+            var searchInput = document.getElementById('faq-search-input');
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    var keyword = this.value.toLowerCase();
+                    var items = document.querySelectorAll('.faq-item');
+                    items.forEach(function(item) {
+                        var title = item.getAttribute('data-title').toLowerCase();
+                        if (title.includes(keyword)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        });
+
+        // 复制视频链接（12个视频）
+        var videoBaseUrl = '';  // 自动获取当前域名
+        document.getElementById('copy-video-1').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v1.mp4');
+        });
+        document.getElementById('copy-video-2').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v2.mp4');
+        });
+        document.getElementById('copy-video-3').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v3.mp4');
+        });
+        document.getElementById('copy-video-4').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v4.mp4');
+        });
+        document.getElementById('copy-video-5').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v5.mp4');
+        });
+        document.getElementById('copy-video-6').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v6.mp4');
+        });
+        document.getElementById('copy-video-7').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v7.mp4');
+        });
+        document.getElementById('copy-video-8').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v8.mp4');
+        });
+        document.getElementById('copy-video-9').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v9.mp4');
+        });
+        document.getElementById('copy-video-10').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v10.mp4');
+        });
+        document.getElementById('copy-video-11').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v11.mp4');
+        });
+        document.getElementById('copy-video-12').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v12.mp4');
+        });
+
+        // 图片预览功能
+        function showPreview(imgSrc) {
+            document.getElementById('preview-big-img').src = imgSrc;
+            document.getElementById('img-preview-lightbox').style.display = 'block';
+        }
     </script>
+
+
+
+
+
     <style type="text/tailwindcss">
         @layer utilities {
             .content-auto {
@@ -100,6 +323,10 @@
                 <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="reviews">
                     <i class="fa fa-star w-5 text-center"></i>
                     <span>好评问答</span>
+                </button>
+                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="media">
+                    <i class="fa fa-picture-o w-5 text-center"></i>
+                    <span>图片视频</span>
                 </button>
 
                 <div class="px-4 mt-6 mb-2 text-xs font-semibold text-gray-400 uppercase">服务信息</div>
@@ -320,7 +547,7 @@
                             </div>
                             <!-- 图片 -->
                             <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-1.jpg" alt="第1步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
+                                <img src="step-1.jpg" alt="第1步" class="cursor-pointer max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'" onclick="showPreview(this.src)">
                             </div>
                         </div>
 
@@ -341,7 +568,7 @@
                             </div>
                             <!-- 第2步：二维码图片 -->
                             <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-2.jpg" alt="扫码登记二维码" class="max-w-xs rounded-lg border-2 border-gray-200">
+                                <img src="step-2.jpg" alt="扫码登记二维码" class="cursor-pointer max-w-xs rounded-lg border-2 border-gray-200" onclick="showPreview(this.src)">
                             </div>
                         </div>
 
@@ -362,7 +589,7 @@
                             </div>
                             <!-- 图片 -->
                             <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-3.jpg" alt="第3步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
+                                <img src="step-3.jpg" alt="第3步" class="cursor-pointer max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'" onclick="showPreview(this.src)">
                             </div>
                         </div>
 
@@ -402,7 +629,7 @@
                             </div>
                             <!-- 图片 -->
                             <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-5.jpg" alt="第5步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
+                                <img src="step-5.jpg" alt="第5步" class="cursor-pointer max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'" onclick="showPreview(this.src)">
                             </div>
                         </div>
 
@@ -438,7 +665,7 @@
                             </div>
                             <!-- 图片 -->
                             <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-7.jpg" alt="第7步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
+                                <img src="step-7.jpg" alt="第7步" class="cursor-pointer max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'" onclick="showPreview(this.src)">
                             </div>
                         </div>
 
@@ -500,947 +727,339 @@
             </div>
 
             
+            
             <!-- 常见问题页面 -->
             <div id="page-faq" class="page-content hidden">
                 <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
                     <div class="px-6 py-4">
-                        <h2 class="text-xl font-bold text-gray-800">常见问题 FAQ</h2>
+                        <h2 class="text-xl font-bold text-gray-800">常见问题</h2>
                     </div>
                 </header>
                 <div class="p-4 lg:p-6">
                     <div class="max-w-3xl mx-auto space-y-4">
-                        
-                        <!-- 空调使用问题 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-snowflake-o text-blue-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">空调使用问题</h3>
-                                        <div class="mt-2 bg-blue-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，空调面板在房间进门的墙壁上，您按一下开关键就可以了，上下键调节温度</p>
-                                            <p>制冷模式显示雪花❄️图标，制热显示太阳☀️图标</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，空调面板在房间进门的墙壁上，您按一下开关键就可以了，上下键调节温度
-制冷模式显示雪花❄️图标，制热显示太阳☀️图标')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 热水器使用问题 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-tint text-orange-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">热水器使用问题</h3>
-                                        <div class="mt-2 bg-orange-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，热水器在卫生间吊顶上面，开关在进门灯开关旁边，您按一下就打开了</p>
-                                            <p>加热需要20-30分钟，热水够用，放心使用</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，热水器在卫生间吊顶上面，开关在进门灯开关旁边，您按一下就打开了
-加热需要20-30分钟，热水够用，放心使用')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 电视/投影仪使用 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-television text-purple-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">电视/投影仪使用</h3>
-                                        <div class="mt-2 bg-purple-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，电视直接按遥控器开关键就可以了，选择机顶盒HDMI就可以看了</p>
-                                            <p>投影仪：先按投影仪遥控器开机，再打开电视盒子，选择对应的HDMI信号源</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，电视直接按遥控器开关键就可以了，选择机顶盒HDMI就可以看了
-投影仪：先按投影仪遥控器开机，再打开电视盒子，选择对应的HDMI信号源')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 洗衣机使用 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-tshirt text-teal-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">洗衣机使用</h3>
-                                        <div class="mt-2 bg-teal-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，洗衣机在阳台，打开电源，按启动就可以了</p>
-                                            <p>洗衣液在洗衣机旁边的柜子里，您可以直接使用</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，洗衣机在阳台，打开电源，按启动就可以了
-洗衣液在洗衣机旁边的柜子里，您可以直接使用')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 燃气灶打不开 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-fire text-red-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">燃气灶打不开</h3>
-                                        <div class="mt-2 bg-red-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，燃气灶下面有个电池阀，您按一下再点火就可以了</p>
-                                            <p>或者电池没电了，您告诉我，我给您送电池过去</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，燃气灶下面有个电池阀，您按一下再点火就可以了
-或者电池没电了，您告诉我，我给您送电池过去')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 续住问题 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-calendar text-green-600 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">续住问题</h3>
-                                        <div class="mt-2 bg-green-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，续住的话您直接在平台上下单就可以了，价格和之前一样</p>
-                                            <p>或者您直接转给我也可以，给您优惠一点</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，续住的话您直接在平台上下单就可以了，价格和之前一样
-或者您直接转给我也可以，给您优惠一点')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
 
-<!-- 好评问答页面 -->
-            <div id="page-reviews" class="page-content hidden">
-                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
-                    <div class="px-6 py-4">
-                        <h2 class="text-xl font-bold text-gray-800">好评问答</h2>
-                    </div>
-                </header>
-                <div class="p-4 lg:p-6">
-                    <div class="max-w-3xl mx-auto space-y-4">
-                        
-                        <!-- 福利说明 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-gift text-orange-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">全五星好评兑换以下福利（7选1）</h3>
-                                        <div class="mt-3 text-xs text-gray-600 space-y-1.5">
-                                            <p><span class="font-bold text-orange-600">A.</span> 免费延迟/提前入住一小时</p>
-                                            <p><span class="font-bold text-orange-600">B.</span> 免布草（或设施）赔付</p>
-                                            <p><span class="font-bold text-orange-600">C.</span> 多开发票金额（随您的要求和意愿）</p>
-                                            <p><span class="font-bold text-orange-600">D.</span> 免费租用赶海工具一套</p>
-                                            <p><span class="font-bold text-orange-600">E.</span> 便携早餐一份（D/E二选一）</p>
-                                            <p><span class="font-bold text-orange-600">F.</span> 免开火费50元</p>
-                                            <p><span class="font-bold text-orange-600">G.</span> 入住前免费升级房型</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- A -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-clock-o text-orange-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">A. 提前入住或延迟退房</h3>
-                                        <div class="mt-2 bg-orange-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>我们入住时间为下午2点，正常提前一小时为50元</p>
-                                            <p>退房时间为中午12点，正常延迟一小时为50元</p>
-                                            <p class="text-success font-bold mt-1">🌟 如您退房后给我们一个【图片+文字】全五星好评，可以给您免费延迟/提前入住，您看可以吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '我们入住时间为下午2点，正常提前一小时为50元
-退房时间为中午12点，正常延迟一小时为50元
-🌟 如您退房后给我们一个【图片+文字】全五星好评，可以给您免费延迟/提前入住，您看可以吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- B -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-wrench text-red-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">B. 布草或设施破损</h3>
-                                        <div class="mt-2 bg-red-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，中午退房时候检查发现了××（损坏/破洞），按照赔付表格需要您赔付×元</p>
-                                            <p class="text-success font-bold mt-1">🌟 但是损坏不大，您给我们写一个【图片+文字】全五星好评，就不扣您任何费用了，押金全额退回，希望您旅途愉快！</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，中午退房时候检查发现了××（损坏/破洞），按照赔付表格需要您赔付×元
-🌟 但是损坏不大，您给我们写一个【图片+文字】全五星好评，就不扣您任何费用了，押金全额退回，希望您旅途愉快！')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- C -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-file-text-o text-blue-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">C. 开发票</h3>
-                                        <div class="mt-2 bg-blue-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>我们民宿可以开发票</p>
-                                            <p class="text-success font-bold mt-1">🌟 如果您给我们【图片+文字】全五星好评，我们可以多开发票金额（随您的要求和意愿），您退房后可以给全五星好评吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '我们民宿可以开发票
-🌟 如果您给我们【图片+文字】全五星好评，我们可以多开发票金额（随您的要求和意愿），您退房后可以给全五星好评吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- D/E -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-gift text-purple-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">D/E. 赶海工具或早餐（二选一）</h3>
-                                        <div class="mt-2 bg-purple-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>🌟 我们民宿可以免费租用赶海工具一套，或者送您便携早餐一份</p>
-                                            <p class="text-success font-bold mt-1">二选一，需在退房后帮忙写一个【图片+文字】全五星好评，赶海工具退房后放在房间里就可以了，您看需要吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '🌟 我们民宿可以免费租用赶海工具一套，或者送您便携早餐一份
-二选一，需在退房后帮忙写一个【图片+文字】全五星好评，赶海工具退房后放在房间里就可以了，您看需要吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- F -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-cutlery text-yellow-600 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">F. 客人使用厨房（免开火费）</h3>
-                                        <div class="mt-2 bg-yellow-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，我们只住一天开火费50元，因为打扫特别麻烦</p>
-                                            <p class="text-success font-bold mt-1">🌟 但是没关系，您给我们一个【图片+文字】全五星好评，这个费用就不收您啦！请记得截图给我~</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，我们只住一天开火费50元，因为打扫特别麻烦
-🌟 但是没关系，您给我们一个【图片+文字】全五星好评，这个费用就不收您啦！请记得截图给我~')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 物品遗落 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-shopping-bag text-teal-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">客人物品遗落</h3>
-                                        <div class="mt-2 bg-teal-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付</p>
-                                            <p class="text-success font-bold mt-1">🌟 对了，您觉得我们服务满意的话，请给我们【图片+文字】全五星好评，您看可以吗？再次感谢啦！</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付
-🌟 对了，您觉得我们服务满意的话，请给我们【图片+文字】全五星好评，您看可以吗？再次感谢啦！')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- G -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-level-up text-green-600 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">G. 入住前免费升级房型</h3>
-                                        <div class="mt-2 bg-green-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p class="text-success font-bold">🌟 您好，这边【图片+文字】全五星好评可以给您免费升级个房型，比您之前预定房间更好，您看需要吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，这边【图片+文字】全五星好评可以给您免费升级个房型，比您之前预定房间更好，您看需要吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        ml lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>寻美棋子湾民宿管理系统</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#165DFF',
-                        secondary: '#36CFC9',
-                        accent: '#722ED1',
-                        warning: '#FA8C16',
-                        success: '#52C41A',
-                        danger: '#F5222D',
-                        neutral: '#F5F7FA',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                }
-            }
-        }
-    </script>
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .content-auto {
-                content-visibility: auto;
-            }
-            .card-shadow {
-                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            }
-            .filter-active {
-                background-color: #165DFF;
-                color: white;
-            }
-            .modal-backdrop {
-                background-color: rgba(0, 0, 0, 0.5);
-            }
-            .menu-active {
-                background-color: #E8F3FF;
-                color: #165DFF;
-                border-right: 3px solid #165DFF;
-            }
-            .house-card:hover {
-                transform: translateY(-4px);
-                cursor: pointer;
-            }
-            .copy-btn:hover {
-                background-color: #165DFF;
-                color: white;
-            }
-            .copy-success {
-                background-color: #52C41A !important;
-                color: white !important;
-            }
-        }
-    </style>
-</head>
-<body class="bg-neutral min-h-screen">
-    <!-- 移动端菜单遮罩 -->
-    <div id="mobileOverlay" class="fixed inset-0 bg-black/50 z-40 hidden lg:hidden" onclick="toggleMobileMenu()"></div>
-    
-    <div class="flex min-h-screen">
-        <!-- 左侧菜单栏 -->
-        <aside id="sidebar" class="w-64 bg-white shadow-lg fixed h-full z-50 overflow-y-auto transform -translate-x-full lg:translate-x-0 transition-transform duration-300">
-            <div class="p-5 border-b">
-                <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                        <i class="fa fa-home text-white text-lg"></i>
-                    </div>
-                    <div>
-                        <h1 class="font-bold text-gray-800">寻美棋子湾</h1>
-                        <p class="text-xs text-gray-500">民宿管理系统</p>
-                    </div>
-                </div>
-            </div>
-            
-            <nav class="py-4">
-                <div class="px-4 mb-2 text-xs font-semibold text-gray-400 uppercase">核心功能</div>
-                
-                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all menu-active" data-page="houses">
-                    <i class="fa fa-building w-5 text-center"></i>
-                    <span>房源管理</span>
-                </button>
-                
-                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="checkin">
-                    <i class="fa fa-calendar-check-o w-5 text-center"></i>
-                    <span>入住流程</span>
-                </button>
-                
-                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="faq">
-                    <i class="fa fa-question-circle w-5 text-center"></i>
-                    <span>常见问题</span>
-                </button>
-                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="reviews">
-                    <i class="fa fa-star w-5 text-center"></i>
-                    <span>好评问答</span>
-                </button>
-
-                <div class="px-4 mt-6 mb-2 text-xs font-semibold text-gray-400 uppercase">服务信息</div>
-                
-                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="contact">
-                    <i class="fa fa-address-book w-5 text-center"></i>
-                    <span>联系与地址</span>
-                </button>
-                
-                <button class="menu-item w-full px-4 py-3 flex items-center space-x-3 text-left hover:bg-gray-50 transition-all text-gray-600" data-page="wifi">
-                    <i class="fa fa-wifi w-5 text-center"></i>
-                    <span>WiFi与设备</span>
-                </button>
-            </nav>
-            
-            <div class="p-4 border-t bg-gray-50">
-                <div class="text-xs text-gray-500 text-center">
-                    <p>办公室：21栋205</p>
-                    <p class="mt-1">© 2024 寻美民宿</p>
-                </div>
-            </div>
-        </aside>
-
-        <!-- 主内容区 -->
-        <main class="flex-1 lg:ml-64">
-            <!-- 移动端顶部导航 -->
-            <header class="bg-white shadow-sm sticky top-0 z-30 lg:hidden">
-                <div class="px-4 py-3 flex items-center">
-                    <button onclick="toggleMobileMenu()" class="mr-4 text-gray-600">
-                        <i class="fa fa-bars text-xl"></i>
-                    </button>
-                    <h2 class="text-lg font-bold text-gray-800" id="mobileTitle">房源管理</h2>
-                </div>
-            </header>
-
-            <!-- 房源管理页面 -->
-            <div id="page-houses" class="page-content">
-                <!-- 桌面端顶部导航 -->
-                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
-                    <div class="px-6 py-4 flex items-center justify-between">
-                        <h2 class="text-xl font-bold text-gray-800">房源管理</h2>
-                        <div class="flex items-center space-x-4">
-                            <div class="text-sm text-gray-500">
-                                共 <span id="totalCount" class="font-semibold text-primary">0</span> 套房源
-                            </div>
-                          
-                        </div>
-                    </div>
-                </header>
-
-                <div class="p-4 lg:p-6">
-                    <!-- 统计卡片 -->
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-                        <div class="bg-white rounded-xl card-shadow p-4">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <p class="text-gray-500 text-xs">两室一厅</p>
-                                    <p class="text-xl font-bold text-primary" id="countTwoRoom">5</p>
-                                </div>
-                                <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                                    <i class="fa fa-building text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-white rounded-xl card-shadow p-4">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <p class="text-gray-500 text-xs">一室一厅</p>
-                                    <p class="text-xl font-bold text-success" id="countOneRoom">1</p>
-                                </div>
-                                <div class="w-10 h-10 bg-success/10 rounded-full flex items-center justify-center">
-                                    <i class="fa fa-home text-success"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-white rounded-xl card-shadow p-4">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <p class="text-gray-500 text-xs">大床房</p>
-                                    <p class="text-xl font-bold text-warning" id="countKingBed">8</p>
-                                </div>
-                                <div class="w-10 h-10 bg-warning/10 rounded-full flex items-center justify-center">
-                                    <i class="fa fa-bed text-warning"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-white rounded-xl card-shadow p-4">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <p class="text-gray-500 text-xs">双床房</p>
-                                    <p class="text-xl font-bold text-accent" id="countTwinBed">10</p>
-                                </div>
-                                <div class="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center">
-                                    <i class="fa fa-bed text-accent"></i>
-                                </div>
-                            </div>
+                    <!-- 搜索框（固定顶部，在header下面） -->
+                    <div class="sticky top-[72px] z-10 mb-4 pt-2 pb-2 bg-gray-50/95 backdrop-blur-sm">
+                        <div class="relative">
+                            <i class="fa fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                            <input type="text" id="faq-search-input" placeholder="搜索常见问题..." class="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all shadow-sm">
                         </div>
                     </div>
 
-                    <!-- 搜索筛选区域 -->
-                    <div class="bg-white rounded-xl card-shadow p-4 lg:p-6 mb-6">
-                        <h3 class="text-base font-semibold text-gray-800 mb-4 flex items-center">
-                            <i class="fa fa-filter text-primary mr-2"></i>筛选条件
-                        </h3>
                         
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mb-4">
-                            <div>
-                                <label class="block text-xs font-medium text-gray-600 mb-1">关键词搜索</label>
-                                <div class="relative">
-                                    <input type="text" id="searchInput" placeholder="搜索楼栋、房号、风格..." 
-                                        class="w-full pl-9 pr-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-all">
-                                    <i class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-gray-600 mb-1">房型分类</label>
-                                <select id="roomType" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-all">
-                                    <option value="">全部房型</option>
-                                    <option value="两室一厅">两室一厅</option>
-                                    <option value="一室一厅">一室一厅</option>
-                                    <option value="大床房">大床房</option>
-                                    <option value="双床房">双床房</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-gray-600 mb-1">楼栋</label>
-                                <select id="building" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-all">
-                                    <option value="">全部楼栋</option>
-                                    <option value="17栋">17栋</option>
-                                    <option value="18栋">18栋</option>
-                                    <option value="19栋">19栋</option>
-                                    <option value="21栋">21栋</option>
-                                    <option value="22栋">22栋</option>
-                                    <option value="23栋">23栋</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-gray-600 mb-1">楼层</label>
-                                <select id="floor" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary/30 focus:border-primary outline-none transition-all">
-                                    <option value="">全部楼层</option>
-                                    <option value="1-3层">1-3层</option>
-                                    <option value="4-6层">4-6层</option>
-                                    <option value="7层以上">7层以上</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-wrap gap-2">
-                            <button class="filter-btn px-3 py-1.5 rounded-full border border-gray-200 text-xs font-medium transition-all hover:border-primary hover:text-primary" data-filter="seaView">
-                                <i class="fa fa-eye mr-1"></i>可看海
-                            </button>
-                            <button class="filter-btn px-3 py-1.5 rounded-full border border-gray-200 text-xs font-medium transition-all hover:border-primary hover:text-primary" data-filter="canCook">
-                                <i class="fa fa-cutlery mr-1"></i>可做饭
-                            </button>
-                            <button class="filter-btn px-3 py-1.5 rounded-full border border-gray-200 text-xs font-medium transition-all hover:border-primary hover:text-primary" data-filter="hasProjector">
-                                <i class="fa fa-film mr-1"></i>投影仪
-                            </button>
-                            <button class="filter-btn px-3 py-1.5 rounded-full border border-gray-200 text-xs font-medium transition-all hover:border-primary hover:text-primary" data-filter="hasDesk">
-                                <i class="fa fa-desk mr-1"></i>办公桌
-                            </button>
-                            <button class="filter-btn px-3 py-1.5 rounded-full border border-gray-200 text-xs font-medium transition-all hover:border-primary hover:text-primary" data-filter="sofaCanSleep">
-                                <i class="fa fa-bed mr-1"></i>沙发可睡
-                            </button>
-                            <button id="resetBtn" class="px-3 py-1.5 rounded-full bg-gray-100 text-gray-600 text-xs font-medium transition-all hover:bg-gray-200">
-                                <i class="fa fa-refresh mr-1"></i>重置
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center justify-between mb-4">
-                        <p class="text-sm text-gray-600">找到 <span id="resultCount" class="font-semibold text-primary">0</span> 套房源 <span class="text-xs text-gray-400">（点击查看详情）</span></p>
-                        <select id="sortBy" class="px-2 py-1 border border-gray-200 rounded-lg text-xs">
-                            <option value="default">默认排序</option>
-                            <option value="building">按楼栋排序</option>
-                            <option value="floor-asc">楼层从低到高</option>
-                        </select>
-                    </div>
-
-                    <div id="houseList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
-                    <div id="noResult" class="hidden text-center py-12">
-                        <i class="fa fa-search text-5xl text-gray-300 mb-3"></i>
-                        <p class="text-gray-500">没有找到符合条件的房源</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 入住流程页面 -->
-            <div id="page-checkin" class="page-content hidden">
-                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
-                    <div class="px-6 py-4">
-                        <h2 class="text-xl font-bold text-gray-800">入住流程指南</h2>
-                    </div>
-                </header>
-                <div class="p-4 lg:p-6">
-                    <div class="max-w-3xl mx-auto space-y-4">
-                        <!-- 一键复制全部 -->
-                        <div class="bg-primary/5 rounded-xl p-4 flex items-center justify-between">
-                            <p class="text-sm text-primary font-medium">📋 入住流程全部话术（共10步）</p>
-                            <button onclick="copyAllCheckin()" class="copy-btn bg-white border border-primary text-primary px-4 py-1.5 rounded-lg text-sm transition-all">
-                                <i class="fa fa-copy mr-1"></i>一键复制全部
-                            </button>
-                        </div>
-
-                        <!-- 第1步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
+                        <!-- ====== 原来的6个保留 ====== -->
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="可以延迟退房吗">
                             <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">1</span>
-                                    确认订房信息
-                                </h3>
-                                <button onclick="copyText(this, '您好，欢迎入住寻美棋子湾民宿，我们再次跟您确认一下，请问订房人姓名是张某某吗？\n您的房间在21栋206，您按照我给您发的定位和位置指引图片即可找到房间位置')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                <h3 class="font-bold text-gray-800">1. 可以延迟退房吗？</h3>
+                                <button id="copy-faq-1" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
                             <div class="bg-blue-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>您好，欢迎入住寻美棋子湾民宿，我们再次跟您确认一下，请问订房人姓名是张某某吗？</p>
-                                <p class="mt-2">您的房间在21栋206，您按照我给您发的定位和位置指引图片即可找到房间位置</p>
-                            </div>
-                            <!-- 图片 -->
-                            <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-1.jpg" alt="第1步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
+                                <p>正常退房时间是中午12点，如果您需要延迟退房，根据我们的规定，每延迟一小时将收取50元费用。如果您能给我们一个五星好评（图片+文字），我们可以为您免费延迟半小时退房。这是我们对您支持的小小感谢！</p>
                             </div>
                         </div>
-
-                        <!-- 第2步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="WiFi密码是多少">
                             <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">2</span>
-                                    扫码登记入住
-                                </h3>
-                                <button onclick="copyText(this, '您好，咱们民宿是扫码自助型民宿，您扫这个二维码就可以进入到微信小程序。\n在微信小程序当中可以办理入住以及交纳100块钱押金，就可生成房间密码（截图保存，以便后续查看哦），感谢您的支持与配合！')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                <h3 class="font-bold text-gray-800">2. WiFi密码是多少？</h3>
+                                <button id="copy-faq-2" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
                             <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>您好，咱们民宿是扫码自助型民宿，您扫这个二维码就可以进入到微信小程序。</p>
-                                <p class="mt-2">在微信小程序当中可以办理入住以及交纳<span class="font-bold text-warning">100块钱押金</span>，就可生成房间密码（截图保存，以便后续查看哦），感谢您的支持与配合！</p>
-                            </div>
-                            <!-- 第2步：二维码图片 -->
-                            <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-2.jpg" alt="扫码登记二维码" class="max-w-xs rounded-lg border-2 border-gray-200">
+                                <p>WiFi名称是：China net XM+房间号，密码是：19910000。如果您连接不上，请尝试关闭手机WiFi重新连接，或者重启路由器。如果还是不行，请随时联系我们！</p>
                             </div>
                         </div>
-
-                        <!-- 第3步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="入住和退房时间">
                             <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">3</span>
-                                    登记车牌号
-                                </h3>
-                                <button onclick="copyText(this, '请问您车牌号多少？根据物业要求，我这边需要再次登记，无车或自行车也请回复哦。\n小区为免费地面停车，可直接停在楼栋下面划线停车位（套房可停在别墅间隙），不可停在路上或草坪上，以免物业罚款，自行车可以放到房间里面。')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>请问您车牌号多少？根据物业要求，我这边需要再次登记，无车或自行车也请回复哦。</p>
-                                <p class="mt-2">小区为免费地面停车，可直接停在楼栋下面划线停车位（套房可停在别墅间隙），不可停在路上或草坪上，以免物业罚款，自行车可以放到房间里面。</p>
-                            </div>
-                            <!-- 图片 -->
-                            <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-3.jpg" alt="第3步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
-                            </div>
-                        </div>
-
-                        <!-- 第4步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">4</span>
-                                    密码与WiFi提示
-                                </h3>
-                                <button onclick="copyText(this, '您好，房间密码在小程序中已经的生成，按*后在按房间密码以#结束哦！\nWi-Fi名称：China net XM 房间号\nWi-Fi密码：19910000（寻美民宿所有房间通用）')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                <h3 class="font-bold text-gray-800">3. 入住和退房时间？</h3>
+                                <button id="copy-faq-3" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
                             <div class="bg-purple-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>您好，房间密码在小程序中已经的生成，<span class="font-bold">按*后在按房间密码以#结束哦！</span></p>
-                                <p class="mt-2"><strong>Wi-Fi名称：</strong>China net XM 房间号</p>
-                                <p><strong>Wi-Fi密码：</strong>19910000（寻美民宿所有房间通用）</p>
+                                <p>入住时间是下午2点以后，退房时间是中午12点。如果您提前到达，我们可以先为您办理入住手续，行李可以放在前台，房间打扫好后我们会第一时间通知您。退房后您也可以把行李放在前台，免费寄存！</p>
                             </div>
                         </div>
-
-                        <!-- 第5步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="游泳池是免费的吗">
                             <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">5</span>
-                                    电闸与热水器提醒
-                                </h3>
-                                <button onclick="copyText(this, '您好，咱们民宿为防止电热水器长时间干烧短路，打扫后会关闭热水器小电闸，您进入房间后记得注意下白色电箱中电闸是否全部抬起，热水器上也有使用指南哦！\n进门后左右两边（或冰箱附近或卧门房后）有一个白色电箱，打开后抬一下电闸，所有电闸大小开关，都需往上推起，等待30秒通电，房间才全部通电。')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                <h3 class="font-bold text-gray-800">4. 游泳池是免费的吗？</h3>
+                                <button id="copy-faq-4" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
-                            <div class="bg-red-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p class="font-bold text-danger mb-2">⚠️ 重要提醒</p>
-                                <p>您好，咱们民宿为防止电热水器长时间干烧短路，打扫后会关闭热水器小电闸，您进入房间后记得注意下白色电箱中电闸是否全部抬起，热水器上也有使用指南哦！</p>
-                                <p class="mt-2">进门后左右两边（或冰箱附近或卧门房后）有一个白色电箱，打开后抬一下电闸，所有电闸大小开关，都需往上推起，等待30秒通电，房间才全部通电。</p>
-                            </div>
-                            <!-- 图片 -->
-                            <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-5.jpg" alt="第5步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
+                            <div class="bg-cyan-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>酒店游泳池目前是收费的，38元一位，具体价格和开放时间请咨询游泳池入口。从我们民宿走到游泳池只需要2分钟，非常方便！游泳池对面就是海滩入口哦！</p>
                             </div>
                         </div>
-
-                        <!-- 第6步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="停车是免费的吗">
                             <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">6</span>
-                                    用品摆放位置
-                                </h3>
-                                <button onclick="copyText(this, '您好，一次性洗漱用品在一进门台面上，浴巾在衣柜里，吹风机在洗手间镜子后面，拖鞋在玄关柜下面，房间里的瓶装水和一次性耗品都免费使用。')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                            <div class="bg-teal-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>您好，一次性洗漱用品在一进门台面上，浴巾在衣柜里，吹风机在洗手间镜子后面，拖鞋在玄关柜下面，房间里的瓶装水和一次性耗品都免费使用。</p>
-                            </div>
-                        </div>
-
-                        <!-- 第7步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">7</span>
-                                    房门反锁提醒
-                                </h3>
-                                <button onclick="copyText(this, '进入房间后（人在房间里），门把手向上抬，就可反锁，无需动用其他地方。')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                            <div class="bg-indigo-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>进入房间后（人在房间里），门把手向上抬，就可反锁，无需动用其他地方。</p>
-                            </div>
-                            <!-- 图片 -->
-                            <div class="mt-4 flex justify-center">
-                                <img src="https://tgriuodp.hn-bkt.clouddn.com/step-7.jpg" alt="第7步" class="max-w-sm rounded-lg border-2 border-gray-200" onerror="this.style.display='none'">
-                            </div>
-                        </div>
-
-                        <!-- 第8步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">8</span>
-                                    晚上8点告知退房时间与下班时间
-                                </h3>
-                                <button onclick="copyText(this, '您好，我们是海边小众民宿，不是24小时营业，管家的下班时间为晚上9点，如有需求请在晚9点前告知我们哦。\n我们是居民小区，晚上10后的噪声会打搅小区邻居休息，请您晚10点后保持安静，感谢您的理解和对我们工作的支持。\n退房时间为中午12点前退房，退房可直接离开，并发信息给我，如果需要延迟退房也请告知我哦！\n押金是退房当日晚8点系统自动退还，原路返回的。')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                            <div class="bg-gray-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p><strong>管家下班时间：</strong>晚上9点，如有需求请在晚9点前告知我们哦。</p>
-                                <p class="mt-2">我们是居民小区，晚上10后的噪声会打搅小区邻居休息，请您晚10点后保持安静，感谢您的理解和对我们工作的支持。</p>
-                                <p class="mt-2"><strong>退房时间：</strong>中午12点前退房，退房可直接离开，并发信息给我，如果需要延迟退房也请告知我哦！</p>
-                                <p class="mt-2"><strong>押金退还：</strong>退房当日晚8点系统自动退还，原路返回的。</p>
-                            </div>
-                        </div>
-
-                        <!-- 第9步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">9</span>
-                                    中午11点询问未退房的客人
-                                </h3>
-                                <button onclick="copyText(this, '您好，请问您今日是续住还是退房，再次提醒您我们中午12点前退房，退房请发消息给我，感谢您的支持与配合~')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                <h3 class="font-bold text-gray-800">5. 停车是免费的吗？</h3>
+                                <button id="copy-faq-5" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
                             <div class="bg-yellow-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p>您好，请问您今日是续住还是退房，再次提醒您我们中午12点前退房，退房请发消息给我，感谢您的支持与配合~</p>
+                                <p>小区停车位全部都是免费的！您可以停在地面，也可以停在地下停车场。充电桩在酒店区域，快充慢充都有，具体位置可以问我们。停车非常方便，不用担心！</p>
                             </div>
                         </div>
-
-                        <!-- 第10步 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="海滩怎么走">
                             <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 flex items-center">
-                                    <span class="w-7 h-7 bg-primary text-white rounded-full flex items-center justify-center mr-2 text-xs">10</span>
-                                    退房当日下午2点向客人要好评
-                                </h3>
-                                <button onclick="copyText(this, '下午好，如果方便的话，可以在我们的订房平台，写一个（图片加文字）全全全全五星好评。六任意风景图+20个文字，可以算一个业绩。谢谢您~\n提交前请截图给我啊~\n一定要选择全全全五星啊~')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                <h3 class="font-bold text-gray-800">6. 海滩怎么走？</h3>
+                                <button id="copy-faq-6" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
-                            <div class="bg-pink-50 rounded-lg p-4 text-sm text-gray-700">
-                                <p class="text-xs text-gray-500 mb-2">⚠️ 注意：如果识别到客人不满意的情绪，或者客人没有要免费早餐，或客人没有回复，此话术就不要发了</p>
-                                <p>下午好，如果方便的话，可以在我们的订房平台，写一个（图片加文字）全全全全五星好评。六任意风景图+20个文字，可以算一个业绩。谢谢您~</p>
-                                <p class="mt-2">提交前请截图给我啊~</p>
-                                <p>一定要选择全全全五星啊~</p>
+                            <div class="bg-red-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>先到酒店区域，找到酒店游泳池，游泳池正对面就是海滩的入口！从您的房间走到海滩大约5-10分钟，全程不用出小区，非常安全方便！海滩是棋子湾最美的私人海滩哦！</p>
                             </div>
                         </div>
+                        
+                        <!-- ====== PDF里的18个常见问题 ====== -->
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="外卖地址">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">7. 外卖地址</h3>
+                                <button id="copy-faq-7" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>美团外卖可送达至小区房间门口，外卖地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓栋数+房间号（比如21-205号）。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="邮寄快递地址">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">8. 邮寄快递地址</h3>
+                                <button id="copy-faq-8" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如您需要邮寄快递到民宿，地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓21栋寻美棋子湾民宿，您的名字+电话（快递只有顺丰，京东，可以送到小区，其他快递需要您到昌化镇自提。）</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="空调问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">9. 空调问题</h3>
+                                <button id="copy-faq-9" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-blue-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>21栋（21栋412和21栋413除外）和22栋（22栋220除外）的空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯空调就打开了。</p>
+                                <p class="mt-2">23栋的空调电源键在墙壁上，点击电源键开关即可打开。</p>
+                                <p class="mt-2">21栋412，21栋413，22栋220以及套房为挂式空调，遥控器（通用款，挂式空调都可打开）即可打开空调，如空调打不开，可能是遥控器电视没电，请及时联系我。</p>
+                                <p class="mt-2">A.空调仅有制冷功能哦，没有制热功能，为了让空调更好的降温，请打开空调后先调至25℃吹30分钟，再将空调调至16℃（不可直接调至16℃哦）。</p>
+                                <p class="mt-2">B.房间内外温差大的话会造成墙壁和地板有水渍，属于正常情况，空调可以开除湿，或者开门通风就好。空调打开时门窗也需关闭，否则也会造成墙壁和地板有水渍。</p>
+                                <p class="mt-2">C. 如果挂式空调无法正常开启，a.请检查插头与插座是否松动，松动请重新插上。b.或长按3秒空调伴侣再重新开启空调。c. 检查电视下方的Wi-Fi机顶盒或路由器是否没有插上电。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="热水器问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">10. 热水器问题</h3>
+                                <button id="copy-faq-10" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-purple-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>21栋22栋23栋均为电热水器，如按照热水器上操作指引，热水器不亮灯，无法打开热水器，请及时联系我。</p>
+                                <p class="mt-2">17栋18栋19栋为燃气热水器，您先观看如下视频，首先检查，厨房下燃气表，是否显示数字，其次检查热水器插座是否通电，最后按热水器屏幕开关，水池试水温。燃气热水器工作时会有比较大的声音，如调整后还是无声音无热水请及时联系我。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="投影仪和电视机问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">11. 投影仪和电视机问题</h3>
+                                <button id="copy-faq-11" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-cyan-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>21栋202，21栋506，21栋611（开关在沙发背后墙壁上），21栋810，为投影仪房间，您可先观看如下视频，按照步骤打开投影仪，F+F-可调整清晰度，找到视频中画面投影设置四边梯形校正后观看投影。</p>
+                                <p class="mt-2">其余房间都是电视机，其中22栋220电视开机指南为如下视频，您可先观看，按照步骤打开电视，TCL标志下方有三个按钮，长按中间按钮可以开机，确认机顶盒亮灯后，调至信号源HDMI1为数字电视，可观看直播。22栋415电视开机指南为如下视频，您可先观看，按照步骤打开电视，电视左下方有一个按钮，长按可以开机。18栋403电视开机指南为如下视频，您可先观看，按照步骤打开电视。19栋501电视开机指南为如下视频，您可先观看，按照步骤打开电视。如您还是无法打开电视找到频道，请及时联系我哦。</p>
+                                <p class="mt-2">如您需观看网络电视，民宿有芒果TV电视会员，您可登陆芒果TV观看，如账号过期请及时联系我登陆账号。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="洗衣机问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">12. 洗衣机问题</h3>
+                                <button id="copy-faq-12" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-yellow-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>洗衣液在洗衣机旁边，如您需要补充洗衣液请及时联系我，民宿的滚筒洗衣机使用指南视频如下，洗衣机开门时请看黄色警惕标识，要等待2分钟方可打开洗衣机门，如洗衣机红灯频闪，可能为进水和排水问题，检查进水总阀是否打开，检查排水管是否顺利排水，若洗衣机还是无法正常运行，请及时联系我。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="燃气灶问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">13. 燃气灶问题</h3>
+                                <button id="copy-faq-13" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-red-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如厨房下燃气表显示燃气有剩余，且燃气热水器可正常工作有热水，但燃气灶打不开火，可能是燃气灶电池没电，请及时联系我，我们会过去更换电池。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="续住问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">14. 续住问题</h3>
+                                <button id="copy-faq-14" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。</p>
+                                <p class="mt-2">续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="换房或退房问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">15. 换房或退房问题</h3>
+                                <button id="copy-faq-15" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如您对房间不满意，在未使用布草（床上用品）和洗手间的前提下，可给您免费换房或退房费，换房或退房费请联系我。我们不支持钟点房需求，如您使用了布草（床上用品）和洗手间，便无法给您换房和退房费，还望您理解~</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="登记和押金问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">16. 登记和押金问题</h3>
+                                <button id="copy-faq-16" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-blue-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>您好，我们民宿的小程序为平台直连系统路客云app小程序，对您上传的身份信息严格保密，如有疑问可咨询平台客服，若您是在美团民宿或途家平台预定的房间，可在平台上办理入住和缴纳押金后截图发我就可以啦，我备注好信息后通知老板，给您直接发房间密码哦~</p>
+                                <p class="mt-2">您好，民宿需要支付押金是因为我们不是一整栋的宾馆，我们为分散开放房源，出入房间无人监控，交押金相当于门禁，目的是保护业主私人财物，还请您离开房间时关好房门，押金的退还时间是退房当日晚上8点系统自动退还，为原路返回，如您需要提前退押金，请联系我们手动给您退还，后续有任何押金问题都可随时联系我。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="布草或卫生问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">17. 布草或卫生问题</h3>
+                                <button id="copy-faq-17" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-purple-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>布草（床单，被罩，枕套）有污渍或有毛发等卫生问题（包含房间其他卫生问题，有蚊虫蟑螂）时，需答复客人：非常抱歉，是我们打扫的失误，我尽快联系管家给您更换新布草（或我尽快联系管家过去清洁）。如果超过晚上9点，管家下班了，直接答复客人：非常抱歉，管家已下班，我现在联系老板，这边通过平台给您退30块，您看可以吗？如果客人回答"可以"或"好的"，需答复客人：好的您稍等，我们现在联系平台，后续平台也会给您打电话跟您沟通的，您注意手机电话。</p>
+                                <p class="mt-2">客人需要加被子和枕头时，需要答复：好的，我通知管家给您拿过去，我们直接给您放到房间里，您看可以吗？</p>
+                                <p class="mt-2">客人需要加床，需要答复：我们所有房间不可加床哦，如您想睡沙发的话，我们可以给您加被子和枕头，或给您推荐其他大床房。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="厨房问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">18. 厨房问题</h3>
+                                <button id="copy-faq-18" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-cyan-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如您需要微波炉热饭，我们办公室在21栋205，可在早上9点上班后过来哦。</p>
+                                <p class="mt-2">21栋22栋23栋没有厨房用品，您可自备厨具，退房时请将厨房墙面及台面清洁干净哦，感谢您的支持与配合！</p>
+                                <p class="mt-2">17栋18栋19栋使用厨房，温馨提示：A.如您只入住一天，厨房不免费开火哦，入住两天以上或（图片+文字的）全全全全五星好评可免费开火。B.使用厨房后需自行清理干净，包含清洁台面及墙面，并归还原位，否则会收取50元清洁费用。C.烹饪食物时请勿离开，注意用火用电安全。感谢您的理解与配合！</p>
+                                <p class="mt-2">您好，使用厨房后，请在退房前收拾干净厨房台面及墙面哦，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="增加耗品或蚊香液">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">19. 增加耗品或蚊香液等问题</h3>
+                                <button id="copy-faq-19" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-yellow-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如客人需要增加抽纸，卷纸，牙刷，牙膏，梳子，香皂，马桶套，浴巾，垃圾袋，瓶装水，洗手液，维e乳，沐浴露，洗发水，护发素，洗衣液，插排，吹风机，驱蚊水，蚊香液，暖宝宝，碘酒，创可贴，统一回复：好的，我通知管家给您送过去，直接敲门询问，还是给您挂在房间门口呢？</p>
+                                <p class="mt-2">如客人需要一次性拖鞋，剃须刀，药物，统一回复：非常不好意思，我们不提供一次性拖鞋（或剃须刀，药物）。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="反臭问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">20. 反臭问题</h3>
+                                <button id="copy-faq-20" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-red-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如客人提到房间有臭味，回复客人：好的，您稍等，我通知管家过去查看，有可能是下水道反臭，您可先打开房间窗户和门通风。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="充电桩问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">21. 充电桩问题</h3>
+                                <button id="copy-faq-21" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>您好，小区停车位全是免费的，充电桩是在万国酒店快充/慢充都有，快充位置，在酒店大堂对面，路面上，我发定位给您。慢充位置，在酒店负一楼，地下停车场。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="咨询合作或长租">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">22. 咨询合作或长租</h3>
+                                <button id="copy-faq-22" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；</p>
+                                <p class="mt-2">如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="宠物问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">23. 宠物问题</h3>
+                                <button id="copy-faq-23" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-blue-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>民宿可以带宠物入住，但不要让宠物上床和沙发，并在退房离店时收拾干净自家小可爱的随身用品哦~</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5 faq-item" data-title="医疗问题">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">24. 医疗问题</h3>
+                                <button id="copy-faq-24" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-purple-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>离民宿最近的是昌化镇卫生院（距离7公里左右，开车10多分钟），电话13637503990、26771799，您可先打电话咨询。也可去东方市人民医院（新院区）（距离40公里左右，开车1小时），电话38961277，您可先打电话咨询。</p>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
 
             
-            <!-- 常见问题页面 -->
-            <div id="page-faq" class="page-content hidden">
-                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
-                    <div class="px-6 py-4">
-                        <h2 class="text-xl font-bold text-gray-800">常见问题 FAQ</h2>
-                    </div>
-                </header>
-                <div class="p-4 lg:p-6">
-                    <div class="max-w-3xl mx-auto space-y-4">
-                        
-                        <!-- 空调使用问题 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-snowflake-o text-blue-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">空调使用问题</h3>
-                                        <div class="mt-2 bg-blue-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，空调面板在房间进门的墙壁上，您按一下开关键就可以了，上下键调节温度</p>
-                                            <p>制冷模式显示雪花❄️图标，制热显示太阳☀️图标</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，空调面板在房间进门的墙壁上，您按一下开关键就可以了，上下键调节温度
-制冷模式显示雪花❄️图标，制热显示太阳☀️图标')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 热水器使用问题 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-tint text-orange-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">热水器使用问题</h3>
-                                        <div class="mt-2 bg-orange-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，热水器在卫生间吊顶上面，开关在进门灯开关旁边，您按一下就打开了</p>
-                                            <p>加热需要20-30分钟，热水够用，放心使用</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，热水器在卫生间吊顶上面，开关在进门灯开关旁边，您按一下就打开了
-加热需要20-30分钟，热水够用，放心使用')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 电视/投影仪使用 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-television text-purple-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">电视/投影仪使用</h3>
-                                        <div class="mt-2 bg-purple-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，电视直接按遥控器开关键就可以了，选择机顶盒HDMI就可以看了</p>
-                                            <p>投影仪：先按投影仪遥控器开机，再打开电视盒子，选择对应的HDMI信号源</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，电视直接按遥控器开关键就可以了，选择机顶盒HDMI就可以看了
-投影仪：先按投影仪遥控器开机，再打开电视盒子，选择对应的HDMI信号源')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 洗衣机使用 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-tshirt text-teal-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">洗衣机使用</h3>
-                                        <div class="mt-2 bg-teal-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，洗衣机在阳台，打开电源，按启动就可以了</p>
-                                            <p>洗衣液在洗衣机旁边的柜子里，您可以直接使用</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，洗衣机在阳台，打开电源，按启动就可以了
-洗衣液在洗衣机旁边的柜子里，您可以直接使用')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 燃气灶打不开 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-fire text-red-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">燃气灶打不开</h3>
-                                        <div class="mt-2 bg-red-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，燃气灶下面有个电池阀，您按一下再点火就可以了</p>
-                                            <p>或者电池没电了，您告诉我，我给您送电池过去</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，燃气灶下面有个电池阀，您按一下再点火就可以了
-或者电池没电了，您告诉我，我给您送电池过去')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <!-- 续住问题 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-calendar text-green-600 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">续住问题</h3>
-                                        <div class="mt-2 bg-green-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，续住的话您直接在平台上下单就可以了，价格和之前一样</p>
-                                            <p>或者您直接转给我也可以，给您优惠一点</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，续住的话您直接在平台上下单就可以了，价格和之前一样
-或者您直接转给我也可以，给您优惠一点')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-
-<!-- 好评问答页面 -->
+            <!-- 好评问答页面 -->
             <div id="page-reviews" class="page-content hidden">
                 <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
                     <div class="px-6 py-4">
@@ -1450,203 +1069,353 @@
                 <div class="p-4 lg:p-6">
                     <div class="max-w-3xl mx-auto space-y-4">
                         
-                        <!-- 福利说明 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-gift text-orange-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">全五星好评兑换以下福利（7选1）</h3>
-                                        <div class="mt-3 text-xs text-gray-600 space-y-1.5">
-                                            <p><span class="font-bold text-orange-600">A.</span> 免费延迟/提前入住一小时</p>
-                                            <p><span class="font-bold text-orange-600">B.</span> 免布草（或设施）赔付</p>
-                                            <p><span class="font-bold text-orange-600">C.</span> 多开发票金额（随您的要求和意愿）</p>
-                                            <p><span class="font-bold text-orange-600">D.</span> 免费租用赶海工具一套</p>
-                                            <p><span class="font-bold text-orange-600">E.</span> 便携早餐一份（D/E二选一）</p>
-                                            <p><span class="font-bold text-orange-600">F.</span> 免开火费50元</p>
-                                            <p><span class="font-bold text-orange-600">G.</span> 入住前免费升级房型</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="bg-primary/5 rounded-xl p-4">
+                            <p class="text-sm text-primary font-medium">⭐ 全五星好评兑换以下福利（7选1）：</p>
+                            <div class="mt-2 text-xs text-gray-600 space-y-1">
+                                <p>A. 免费延迟/提前入住一小时</p>
+                                <p>B. 免布草（或设施）赔付</p>
+                                <p>C. 多开发票金额（随您的要求和意愿）</p>
+                                <p>D. 免费租用赶海工具一套</p>
+                                <p>E. 便携早餐一份（D/E二选一）</p>
+                                <p>F. 免开火费50元</p>
+                                <p>G. 入住前免费升级房型</p>
                             </div>
                         </div>
                         
-                        <!-- A -->
                         <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-clock-o text-orange-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">A. 提前入住或延迟退房</h3>
-                                        <div class="mt-2 bg-orange-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>我们入住时间为下午2点，正常提前一小时为50元</p>
-                                            <p>退房时间为中午12点，正常延迟一小时为50元</p>
-                                            <p class="text-success font-bold mt-1">🌟 如您退房后给我们一个【图片+文字】全五星好评，可以给您免费延迟/提前入住，您看可以吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '我们入住时间为下午2点，正常提前一小时为50元
-退房时间为中午12点，正常延迟一小时为50元
-🌟 如您退房后给我们一个【图片+文字】全五星好评，可以给您免费延迟/提前入住，您看可以吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">A. 提前入住或延迟退房</h3>
+                                <button id="copy-review-1" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
-                        </div>
-                        
-                        <!-- B -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-wrench text-red-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">B. 布草或设施破损</h3>
-                                        <div class="mt-2 bg-red-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，中午退房时候检查发现了××（损坏/破洞），按照赔付表格需要您赔付×元</p>
-                                            <p class="text-success font-bold mt-1">🌟 但是损坏不大，您给我们写一个【图片+文字】全五星好评，就不扣您任何费用了，押金全额退回，希望您旅途愉快！</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，中午退房时候检查发现了××（损坏/破洞），按照赔付表格需要您赔付×元
-🌟 但是损坏不大，您给我们写一个【图片+文字】全五星好评，就不扣您任何费用了，押金全额退回，希望您旅途愉快！')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
+                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>我们入住时间为下午2点，如您需要提前办理入住，我们会生成下午2点前的房间密码，以便您出入房间，正常提前一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？</p>
+                                <p class="mt-2">我们退房时间为中午12点，如您需要延迟退房，我们会生成中午12点后的房间密码，以便您出入房间，正常延迟一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？</p>
                             </div>
                         </div>
                         
-                        <!-- C -->
                         <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-file-text-o text-blue-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">C. 开发票</h3>
-                                        <div class="mt-2 bg-blue-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>我们民宿可以开发票</p>
-                                            <p class="text-success font-bold mt-1">🌟 如果您给我们【图片+文字】全五星好评，我们可以多开发票金额（随您的要求和意愿），您退房后可以给全五星好评吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '我们民宿可以开发票
-🌟 如果您给我们【图片+文字】全五星好评，我们可以多开发票金额（随您的要求和意愿），您退房后可以给全五星好评吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">B. 客人导致布草或房间设施破损</h3>
+                                <button id="copy-review-2" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
-                        </div>
-                        
-                        <!-- D/E -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-gift text-purple-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">D/E. 赶海工具或早餐（二选一）</h3>
-                                        <div class="mt-2 bg-purple-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>🌟 我们民宿可以免费租用赶海工具一套，或者送您便携早餐一份</p>
-                                            <p class="text-success font-bold mt-1">二选一，需在退房后帮忙写一个【图片+文字】全五星好评，赶海工具退房后放在房间里就可以了，您看需要吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '🌟 我们民宿可以免费租用赶海工具一套，或者送您便携早餐一份
-二选一，需在退房后帮忙写一个【图片+文字】全五星好评，赶海工具退房后放在房间里就可以了，您看需要吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
+                            <div class="bg-red-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>比如东西有轻微损坏不影响不大，回复客人：您好，中午退房时候检查发现了××（损坏，破洞，等等）。按照赔付表格里的需要您赔付×元。但是损坏不大，您给我们写一个（图片+文字的）全全全全五星好评，就不扣您任何费用了。押金给您全额退回，希望您旅途愉快！</p>
                             </div>
                         </div>
                         
-                        <!-- F -->
                         <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-cutlery text-yellow-600 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">F. 客人使用厨房（免开火费）</h3>
-                                        <div class="mt-2 bg-yellow-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，我们只住一天开火费50元，因为打扫特别麻烦</p>
-                                            <p class="text-success font-bold mt-1">🌟 但是没关系，您给我们一个【图片+文字】全五星好评，这个费用就不收您啦！请记得截图给我~</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，我们只住一天开火费50元，因为打扫特别麻烦
-🌟 但是没关系，您给我们一个【图片+文字】全五星好评，这个费用就不收您啦！请记得截图给我~')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">C. 开发票</h3>
+                                <button id="copy-review-3" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
-                        </div>
-                        
-                        <!-- 物品遗落 -->
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-shopping-bag text-teal-500 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">客人物品遗落</h3>
-                                        <div class="mt-2 bg-teal-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p>您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付</p>
-                                            <p class="text-success font-bold mt-1">🌟 对了，您觉得我们服务满意的话，请给我们【图片+文字】全五星好评，您看可以吗？再次感谢啦！</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付
-🌟 对了，您觉得我们服务满意的话，请给我们【图片+文字】全五星好评，您看可以吗？再次感谢啦！')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
+                            <div class="bg-blue-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>我们民宿可以开发票，如果您给我们（图片+文字的）全全全全五星好评，我们可以多开发票金额（随您的要求和意愿）您退房后可以给全全全全五星好评吗？</p>
                             </div>
                         </div>
                         
-                        <!-- G -->
                         <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start justify-between">
-                                <div class="flex items-start">
-                                    <i class="fa fa-level-up text-green-600 mr-3 mt-0.5"></i>
-                                    <div>
-                                        <h3 class="font-semibold text-gray-800 text-sm">G. 入住前免费升级房型</h3>
-                                        <div class="mt-2 bg-green-50 rounded-lg p-3 text-xs text-gray-600">
-                                            <p class="text-success font-bold">🌟 您好，这边【图片+文字】全五星好评可以给您免费升级个房型，比您之前预定房间更好，您看需要吗？</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button onclick="copyText(this, '您好，这边【图片+文字】全五星好评可以给您免费升级个房型，比您之前预定房间更好，您看需要吗？')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all flex-shrink-0">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">D. 租用赶海工具或需要早餐</h3>
+                                <button id="copy-review-4" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
                                     <i class="fa fa-copy"></i> 复制
                                 </button>
                             </div>
+                            <div class="bg-purple-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>我们民宿可以免费租用赶海工具需在退房后帮忙写一个五星好评"图片+文字"，赶海工具退房后放在房间里就可以了。或者可以送您便携早餐，需在退房后帮忙写一个（图片+文字的）全全全全五星好评，就可以了。</p>
+                            </div>
                         </div>
                         
-                        <!-- 好评模板 -->
                         <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-start">
-                                <i class="fa fa-star text-yellow-500 mr-3 mt-0.5"></i>
-                                <div class="w-full">
-                                    <h3 class="font-semibold text-gray-800 text-sm">📝 好评模板（可直接发给客人）</h3>
-                                    <div class="mt-4 space-y-4">
-                                        <div class="bg-gray-50 rounded-lg p-3">
-                                            <div class="flex items-center justify-between mb-2">
-                                                <span class="font-semibold text-primary text-xs">1. 工笔版（简洁好评）</span>
-                                                <button onclick="copyText(this, '非常棒的民宿！房间干净，海景很美，小区环境好，下次来还住')" class="copy-btn border border-gray-200 text-gray-500 px-2 py-1 rounded text-xs transition-all">
-                                                    <i class="fa fa-copy"></i> 复制
-                                                </button>
-                                            </div>
-                                            <p class="text-xs text-gray-600">非常棒的民宿！房间干净，海景很美，小区环境好，下次来还住</p>
-                                        </div>
-                                        <div class="bg-gray-50 rounded-lg p-3">
-                                            <div class="flex items-center justify-between mb-2">
-                                                <span class="font-semibold text-success text-xs">2. 详细版（50字以上推荐）</span>
-                                                <button onclick="copyText(this, '棋子湾超赞的民宿！房间比图片还好看，卫生干净，躺在床上看海太治愈了，房东服务好，位置绝佳，厨房用品和洗衣机都有，一客一换，强烈推荐')" class="copy-btn border border-gray-200 text-gray-500 px-2 py-1 rounded text-xs transition-all">
-                                                    <i class="fa fa-copy"></i> 复制
-                                                </button>
-                                            </div>
-                                            <p class="text-xs text-gray-600">棋子湾超赞的民宿！房间比图片还好看，卫生干净，躺在床上看海太治愈了，房东服务好，位置绝佳，厨房用品和洗衣机都有，一客一换，强烈推荐</p>
-                                        </div>
-                                        <div class="bg-gray-50 rounded-lg p-3">
-                                            <div class="flex items-center justify-between mb-2">
-                                                <span class="font-semibold text-accent text-xs">3. 商旅版（通用万能好评）</span>
-                                                <button onclick="copyText(this, '推荐给所有人！房间设施一流，性价比超高，入住流程便捷，图片和实景一致，很满意下次还来')" class="copy-btn border border-gray-200 text-gray-500 px-2 py-1 rounded text-xs transition-all">
-                                                    <i class="fa fa-copy"></i> 复制
-                                                </button>
-                                            </div>
-                                            <p class="text-xs text-gray-600">推荐给所有人！房间设施一流，性价比超高，入住流程便捷，图片和实景一致，很满意下次还来</p>
-                                        </div>
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">E. 客人使用厨房</h3>
+                                <button id="copy-review-5" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-yellow-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>退房后发现非连住客人使用厨房，回复客人：您好，我们只住一天开火费50元，因为打扫特别麻烦，但是没关系，您给我们一个（图片+文字的）全全全全五星好评)这个费用就不收您啦~请记得截图给我~</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">F. 客人物品遗落</h3>
+                                <button id="copy-review-6" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-cyan-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付。由于地方偏远，顺丰今天或明天才能上门哦，您耐心等等（顺丰下单后，您使用提供的手机号登录顺丰小程序即可查看订单状态）。对了，您觉得我们服务满意的话，请给我们（图片+文字的）全全全全五星好评，您看可以吗？再次感谢啦~!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">G. 入住前免费升级房型</h3>
+                                <button id="copy-review-7" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>您好，这边（图片+文字的）全全全全五星好评给可以您免费升级个房型，比您之前预定房间更好，您看需要吗？</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- 图片视频页面 -->
+            <div id="page-media" class="page-content hidden">
+                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
+                    <div class="px-6 py-4">
+                        <h2 class="text-xl font-bold text-gray-800">图片视频</h2>
+                    </div>
+                </header>
+                <div class="p-4 lg:p-6">
+                    <div class="max-w-4xl mx-auto">
+                        
+                        <div class="mb-8">
+                            <h3 class="text-lg font-bold text-gray-800 mb-4"><i class="fa fa-image text-blue-500 mr-2"></i>图片资料（长按图片转发保存）</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t1.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="小区布局" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t1 - 小区布局</p>
+                                        <a href="t1.jpg" download="t1-小区布局.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
                                     </div>
                                 </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t2.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="电闸" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t2 - 电闸</p>
+                                        <a href="t2.jpg" download="t2-电闸.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t3.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="小区海滩指引" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t3 - 小区海滩指引</p>
+                                        <a href="t3.jpg" download="t3-小区海滩指引.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t4.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="棋子湾游玩攻略" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t4 - 棋子湾游玩攻略</p>
+                                        <a href="t4.jpg" download="t4-棋子湾游玩攻略.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t5.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="万国酒店大堂布局" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t5 - 万国酒店大堂布局</p>
+                                        <a href="t5.jpg" download="t5-万国酒店大堂布局.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t6.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="全球潮汐" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t6 - 全球潮汐</p>
+                                        <a href="t6.jpg" download="t6-全球潮汐.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t7.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="赶海工具" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t7 - 赶海工具</p>
+                                        <a href="t7.jpg" download="t7-赶海工具.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <img src="t8.jpg" class="w-full aspect-video object-cover cursor-pointer" alt="空调伴侣" onclick="showPreview(this.src)">
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">t8 - 空调伴侣</p>
+                                        <a href="t8.jpg" download="t8-空调伴侣.jpg" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800 mb-4"><i class="fa fa-video-camera text-red-500 mr-2"></i>视频教程</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v1.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v1 - 反锁</p>
+                                        <a href="v1.mp4" download="v1-反锁.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v2.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v2 - 22栋220电视机</p>
+                                        <a href="v2.mp4" download="v2-22栋220电视机.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v3.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v3 - 小区介绍</p>
+                                        <a href="v3.mp4" download="v3-小区介绍.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v4.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v4 - 出发海滩</p>
+                                        <a href="v4.mp4" download="v4-出发海滩.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v5.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v5 - 电闸</p>
+                                        <a href="v5.mp4" download="v5-电闸.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v6.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v6 - 23栋洗衣机</p>
+                                        <a href="v6.mp4" download="v6-23栋洗衣机.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v7.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v7 - 22栋415电视机操作</p>
+                                        <a href="v7.mp4" download="v7-22栋415电视机操作.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v8.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v8 - 电视机指南</p>
+                                        <a href="v8.mp4" download="v8-电视机指南.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v9.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v9 - 投影仪指南</p>
+                                        <a href="v9.mp4" download="v9-投影仪指南.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v10.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v10 - 调整热水器</p>
+                                        <a href="v10.mp4" download="v10-调整热水器.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v11.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v11 - 18栋403电视机</p>
+                                        <a href="v11.mp4" download="v11-18栋403电视机.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <video src="v12.mp4" class="w-full aspect-video bg-black" controls preload="none"
+                                        您的浏览器不支持视频播放
+                                    </video>
+                                    <div class="p-3 flex items-center justify-between">
+                                        <p class="text-sm font-medium text-gray-700">v12 - 密码开门</p>
+                                        <a href="v12.mp4" download="v12-密码开门.mp4" class="text-xs text-blue-500 hover:text-blue-600">
+                                            <i class="fa fa-download mr-1"></i>下载
+                                        </a>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                         
@@ -1731,17 +1500,8 @@
                             <p class="text-xs text-gray-500 mt-3">💡 房间里的瓶装水和一次性耗品都免费使用</p>
                         </div>
 
-                        <div class="bg-white rounded-xl card-shadow p-5">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="font-bold text-gray-800 text-sm"><i class="fa fa-lock text-gray-500 mr-2"></i>房门反锁方式</h3>
-                                <button onclick="copyText(this, '进入房间后（人在房间里），门把手向上抬，就可反锁，无需动用其他地方')" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
-                                    <i class="fa fa-copy"></i> 复制
-                                </button>
-                            </div>
-                            <div class="bg-gray-50 rounded-lg p-4">
-                                <p class="text-gray-700 text-sm">进入房间后（人在房间里），<strong>门把手向上抬</strong>，就可反锁，无需动用其他地方</p>
-                            </div>
-                        </div>
+                        
+
                     </div>
                 </div>
             </div>
@@ -2333,7 +2093,7 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
         }
 
         function switchPage(pageName) {
-            const titles = {'houses':'房源管理','checkin':'入住流程','faq':'常见问题','reviews':'好评问答','contact':'联系与地址','wifi':'WiFi与设备'};
+            const titles = {'houses':'房源管理','checkin':'入住流程','faq':'常见问题','reviews':'好评问答','media':'图片视频','contact':'联系与地址','wifi':'WiFi与设备'};
             document.getElementById('mobileTitle').textContent = titles[pageName];
             
             document.querySelectorAll('.menu-item').forEach(item => {
@@ -2528,7 +2288,230 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
                 </div>`;
             }).join('');
         }
+
+        // 常见问题复制按钮绑定事件（绝对管用！）
+        document.getElementById('copy-faq-1').addEventListener('click', function() {
+            var text = "21栋(21栋412/413除外)和22栋(22栋220除外)：空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯即可\n23栋：墙壁电源键，点击即可\n挂式空调：使用遥控器（通用款），如打不开可能是遥控器没电\n⚠️ 注意：空调仅有制冷功能！先调25℃吹30分钟，再调16℃";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-2').addEventListener('click', function() {
+            var text = "先打开墙壁上的空气开关，再按热水器遥控器开关键，等待30分钟即可使用\n⚠️ 注意：水温请勿超过50℃，避免烫伤";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-3').addEventListener('click', function() {
+            var text = "电视：使用电视遥控器打开，选择HDMI1即可观看\n投影仪：先打开投影仪电源，再打开电视盒子，选择HDMI2即可\n⚠️ 注意：投影仪请勿直接断电，需用遥控器关闭后等待3分钟再断电";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-4').addEventListener('click', function() {
+            var text = "打开洗衣机门，放入衣物和洗衣液，关闭门后按电源键，再按启动键即可\n⚠️ 注意：请勿放入过多衣物，避免洗衣机损坏";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-5').addEventListener('click', function() {
+            var text = "先打开燃气阀门，再按燃气灶开关，按住3秒后松开即可点火\n⚠️ 注意：使用后请关闭燃气阀门，避免漏气";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-6').addEventListener('click', function() {
+            var text = "续住请提前1天告知，价格和之前一样，直接转账即可\n⚠️ 注意：节假日价格可能会有浮动，以实际为准";
+            copyText(this, text);
+        });
+
+        // 常见问题复制按钮（24个）
+        document.getElementById('copy-faq-1').addEventListener('click', function() {
+            var text = "正常退房时间是中午12点，如果您需要延迟退房，根据我们的规定，每延迟一小时将收取50元费用。如果您能给我们一个五星好评（图片+文字），我们可以为您免费延迟半小时退房。这是我们对您支持的小小感谢！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-2').addEventListener('click', function() {
+            var text = "WiFi名称是：China net XM+房间号，密码是：19910000。如果您连接不上，请尝试关闭手机WiFi重新连接，或者重启路由器。如果还是不行，请随时联系我们！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-3').addEventListener('click', function() {
+            var text = "入住时间是下午2点以后，退房时间是中午12点。如果您提前到达，我们可以先为您办理入住手续，行李可以放在前台，房间打扫好后我们会第一时间通知您。退房后您也可以把行李放在前台，免费寄存！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-4').addEventListener('click', function() {
+            var text = "酒店游泳池目前是收费的，38元一位，具体价格和开放时间请咨询游泳池入口。从我们民宿走到游泳池只需要2分钟，非常方便！游泳池对面就是海滩入口哦！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-5').addEventListener('click', function() {
+            var text = "小区停车位全部都是免费的！您可以停在地面，也可以停在地下停车场。充电桩在酒店区域，快充慢充都有，具体位置可以问我们。停车非常方便，不用担心！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-6').addEventListener('click', function() {
+            var text = "先到酒店区域，找到酒店游泳池，游泳池正对面就是海滩的入口！从您的房间走到海滩大约5-10分钟，全程不用出小区，非常安全方便！海滩是棋子湾最美的私人海滩哦！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-7').addEventListener('click', function() {
+            var text = "美团外卖可送达至小区房间门口，外卖地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓栋数+房间号（比如21-205号）。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-8').addEventListener('click', function() {
+            var text = "如您需要邮寄快递到民宿，地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓21栋寻美棋子湾民宿，您的名字+电话（快递只有顺丰，京东，可以送到小区，其他快递需要您到昌化镇自提。）";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-9').addEventListener('click', function() {
+            var text = "21栋（21栋412和21栋413除外）和22栋（22栋220除外）的空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯空调就打开了。\n23栋的空调电源键在墙壁上，点击电源键开关即可打开。\n21栋412，21栋413，22栋220以及套房为挂式空调，遥控器（通用款，挂式空调都可打开）即可打开空调，如空调打不开，可能是遥控器电视没电，请及时联系我。\nA.空调仅有制冷功能哦，没有制热功能，为了让空调更好的降温，请打开空调后先调至25℃吹30分钟，再将空调调至16℃（不可直接调至16℃哦）。\nB.房间内外温差大的话会造成墙壁和地板有水渍，属于正常情况，空调可以开除湿，或者开门通风就好。空调打开时门窗也需关闭，否则也会造成墙壁和地板有水渍。\nC. 如果挂式空调无法正常开启，a.请检查插头与插座是否松动，松动请重新插上。b.或长按3秒空调伴侣再重新开启空调。c. 检查电视下方的Wi-Fi机顶盒或路由器是否没有插上电。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-10').addEventListener('click', function() {
+            var text = "21栋22栋23栋均为电热水器，如按照热水器上操作指引，热水器不亮灯，无法打开热水器，请及时联系我。\n17栋18栋19栋为燃气热水器，您先观看如下视频，首先检查，厨房下燃气表，是否显示数字，其次检查热水器插座是否通电，最后按热水器屏幕开关，水池试水温。燃气热水器工作时会有比较大的声音，如调整后还是无声音无热水请及时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-11').addEventListener('click', function() {
+            var text = "21栋202，21栋506，21栋611（开关在沙发背后墙壁上），21栋810，为投影仪房间，您可先观看如下视频，按照步骤打开投影仪，F+F-可调整清晰度，找到视频中画面投影设置四边梯形校正后观看投影。\n其余房间都是电视机，其中22栋220电视开机指南为如下视频，您可先观看，按照步骤打开电视，TCL标志下方有三个按钮，长按中间按钮可以开机，确认机顶盒亮灯后，调至信号源HDMI1为数字电视，可观看直播。22栋415电视开机指南为如下视频，您可先观看，按照步骤打开电视，电视左下方有一个按钮，长按可以开机。18栋403电视开机指南为如下视频，您可先观看，按照步骤打开电视。19栋501电视开机指南为如下视频，您可先观看，按照步骤打开电视。如您还是无法打开电视找到频道，请及时联系我哦。\n如您需观看网络电视，民宿有芒果TV电视会员，您可登陆芒果TV观看，如账号过期请及时联系我登陆账号。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-12').addEventListener('click', function() {
+            var text = "洗衣液在洗衣机旁边，如您需要补充洗衣液请及时联系我，民宿的滚筒洗衣机使用指南视频如下，洗衣机开门时请看黄色警惕标识，要等待2分钟方可打开洗衣机门，如洗衣机红灯频闪，可能为进水和排水问题，检查进水总阀是否打开，检查排水管是否顺利排水，若洗衣机还是无法正常运行，请及时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-13').addEventListener('click', function() {
+            var text = "如厨房下燃气表显示燃气有剩余，且燃气热水器可正常工作有热水，但燃气灶打不开火，可能是燃气灶电池没电，请及时联系我，我们会过去更换电池。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-14').addEventListener('click', function() {
+            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-15').addEventListener('click', function() {
+            var text = "如您对房间不满意，在未使用布草（床上用品）和洗手间的前提下，可给您免费换房或退房费，换房或退房费请联系我。我们不支持钟点房需求，如您使用了布草（床上用品）和洗手间，便无法给您换房和退房费，还望您理解~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-16').addEventListener('click', function() {
+            var text = "您好，我们民宿的小程序为平台直连系统路客云app小程序，对您上传的身份信息严格保密，如有疑问可咨询平台客服，若您是在美团民宿或途家平台预定的房间，可在平台上办理入住和缴纳押金后截图发我就可以啦，我备注好信息后通知老板，给您直接发房间密码哦~\n您好，民宿需要支付押金是因为我们不是一整栋的宾馆，我们为分散开放房源，出入房间无人监控，交押金相当于门禁，目的是保护业主私人财物，还请您离开房间时关好房门，押金的退还时间是退房当日晚上8点系统自动退还，为原路返回，如您需要提前退押金，请联系我们手动给您退还，后续有任何押金问题都可随时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-17').addEventListener('click', function() {
+            var text = "布草（床单，被罩，枕套）有污渍或有毛发等卫生问题（包含房间其他卫生问题，有蚊虫蟑螂）时，需答复客人：非常抱歉，是我们打扫的失误，我尽快联系管家给您更换新布草（或我尽快联系管家过去清洁）。如果超过晚上9点，管家下班了，直接答复客人：非常抱歉，管家已下班，我现在联系老板，这边通过平台给您退30块，您看可以吗？如果客人回答\"可以\"或\"好的\"，需答复客人：好的您稍等，我们现在联系平台，后续平台也会给您打电话跟您沟通的，您注意手机电话。\n客人需要加被子和枕头时，需要答复：好的，我通知管家给您拿过去，我们直接给您放到房间里，您看可以吗？\n客人需要加床，需要答复：我们所有房间不可加床哦，如您想睡沙发的话，我们可以给您加被子和枕头，或给您推荐其他大床房。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-18').addEventListener('click', function() {
+            var text = "如您需要微波炉热饭，我们办公室在21栋205，可在早上9点上班后过来哦。\n21栋22栋23栋没有厨房用品，您可自备厨具，退房时请将厨房墙面及台面清洁干净哦，感谢您的支持与配合！\n17栋18栋19栋使用厨房，温馨提示：A.如您只入住一天，厨房不免费开火哦，入住两天以上或（图片+文字的）全全全全五星好评可免费开火。B.使用厨房后需自行清理干净，包含清洁台面及墙面，并归还原位，否则会收取50元清洁费用。C.烹饪食物时请勿离开，注意用火用电安全。感谢您的理解与配合！\n您好，使用厨房后，请在退房前收拾干净厨房台面及墙面哦，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-19').addEventListener('click', function() {
+            var text = "如客人需要增加抽纸，卷纸，牙刷，牙膏，梳子，香皂，马桶套，浴巾，垃圾袋，瓶装水，洗手液，维e乳，沐浴露，洗发水，护发素，洗衣液，插排，吹风机，驱蚊水，蚊香液，暖宝宝，碘酒，创可贴，统一回复：好的，我通知管家给您送过去，直接敲门询问，还是给您挂在房间门口呢？\n如客人需要一次性拖鞋，剃须刀，药物，统一回复：非常不好意思，我们不提供一次性拖鞋（或剃须刀，药物）。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-20').addEventListener('click', function() {
+            var text = "如客人提到房间有臭味，回复客人：好的，您稍等，我通知管家过去查看，有可能是下水道反臭，您可先打开房间窗户和门通风。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-21').addEventListener('click', function() {
+            var text = "您好，小区停车位全是免费的，充电桩是在万国酒店快充/慢充都有，快充位置，在酒店大堂对面，路面上，我发定位给您。慢充位置，在酒店负一楼，地下停车场。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-22').addEventListener('click', function() {
+            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-23').addEventListener('click', function() {
+            var text = "民宿可以带宠物入住，但不要让宠物上床和沙发，并在退房离店时收拾干净自家小可爱的随身用品哦~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-24').addEventListener('click', function() {
+            var text = "离民宿最近的是昌化镇卫生院（距离7公里左右，开车10多分钟），电话13637503990、26771799，您可先打电话咨询。也可去东方市人民医院（新院区）（距离40公里左右，开车1小时），电话38961277，您可先打电话咨询。";
+            copyText(this, text);
+        });
+        
+        // 好评问答复制按钮（7个）
+        document.getElementById('copy-review-1').addEventListener('click', function() {
+            var text = "我们入住时间为下午2点，如您需要提前办理入住，我们会生成下午2点前的房间密码，以便您出入房间，正常提前一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？\n我们退房时间为中午12点，如您需要延迟退房，我们会生成中午12点后的房间密码，以便您出入房间，正常延迟一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-2').addEventListener('click', function() {
+            var text = "比如东西有轻微损坏不影响不大，回复客人：您好，中午退房时候检查发现了××（损坏，破洞，等等）。按照赔付表格里的需要您赔付×元。但是损坏不大，您给我们写一个（图片+文字的）全全全全五星好评，就不扣您任何费用了。押金给您全额退回，希望您旅途愉快！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-3').addEventListener('click', function() {
+            var text = "我们民宿可以开发票，如果您给我们（图片+文字的）全全全全五星好评，我们可以多开发票金额（随您的要求和意愿）您退房后可以给全全全全五星好评吗？";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-4').addEventListener('click', function() {
+            var text = "我们民宿可以免费租用赶海工具需在退房后帮忙写一个五星好评\"图片+文字\"，赶海工具退房后放在房间里就可以了。或者可以送您便携早餐，需在退房后帮忙写一个（图片+文字的）全全全全五星好评，就可以了。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-5').addEventListener('click', function() {
+            var text = "退房后发现非连住客人使用厨房，回复客人：您好，我们只住一天开火费50元，因为打扫特别麻烦，但是没关系，您给我们一个（图片+文字的）全全全全五星好评)这个费用就不收您啦~请记得截图给我~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-6').addEventListener('click', function() {
+            var text = "您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付。由于地方偏远，顺丰今天或明天才能上门哦，您耐心等等（顺丰下单后，您使用提供的手机号登录顺丰小程序即可查看订单状态）。对了，您觉得我们服务满意的话，请给我们（图片+文字的）全全全全五星好评，您看可以吗？再次感谢啦~!";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-7').addEventListener('click', function() {
+            var text = "您好，这边（图片+文字的）全全全全五星好评给可以您免费升级个房型，比您之前预定房间更好，您看需要吗？";
+            copyText(this, text);
+        });
+
+        // 常见问题搜索功能（绝对可靠版）
+        document.addEventListener('DOMContentLoaded', function() {
+            var searchInput = document.getElementById('faq-search-input');
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    var keyword = this.value.toLowerCase();
+                    var items = document.querySelectorAll('.faq-item');
+                    items.forEach(function(item) {
+                        var title = item.getAttribute('data-title').toLowerCase();
+                        if (title.includes(keyword)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        });
+
+        // 复制视频链接（12个视频）
+        var videoBaseUrl = '';  // 自动获取当前域名
+        document.getElementById('copy-video-1').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v1.mp4');
+        });
+        document.getElementById('copy-video-2').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v2.mp4');
+        });
+        document.getElementById('copy-video-3').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v3.mp4');
+        });
+        document.getElementById('copy-video-4').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v4.mp4');
+        });
+        document.getElementById('copy-video-5').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v5.mp4');
+        });
+        document.getElementById('copy-video-6').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v6.mp4');
+        });
+        document.getElementById('copy-video-7').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v7.mp4');
+        });
+        document.getElementById('copy-video-8').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v8.mp4');
+        });
+        document.getElementById('copy-video-9').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v9.mp4');
+        });
+        document.getElementById('copy-video-10').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v10.mp4');
+        });
+        document.getElementById('copy-video-11').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v11.mp4');
+        });
+        document.getElementById('copy-video-12').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v12.mp4');
+        });
+
+        // 图片预览功能
+        function showPreview(imgSrc) {
+            document.getElementById('preview-big-img').src = imgSrc;
+            document.getElementById('img-preview-lightbox').style.display = 'block';
+        }
     </script>
+
+
+
+
+
 
     <script>
         function downloadImage(filename) {
@@ -2537,8 +2520,456 @@ Wi-Fi密码：19910000（寻美民宿所有房间通用）
             a.download = filename;
             a.click();
         }
+
+        // 常见问题复制按钮绑定事件（绝对管用！）
+        document.getElementById('copy-faq-1').addEventListener('click', function() {
+            var text = "21栋(21栋412/413除外)和22栋(22栋220除外)：空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯即可\n23栋：墙壁电源键，点击即可\n挂式空调：使用遥控器（通用款），如打不开可能是遥控器没电\n⚠️ 注意：空调仅有制冷功能！先调25℃吹30分钟，再调16℃";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-2').addEventListener('click', function() {
+            var text = "先打开墙壁上的空气开关，再按热水器遥控器开关键，等待30分钟即可使用\n⚠️ 注意：水温请勿超过50℃，避免烫伤";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-3').addEventListener('click', function() {
+            var text = "电视：使用电视遥控器打开，选择HDMI1即可观看\n投影仪：先打开投影仪电源，再打开电视盒子，选择HDMI2即可\n⚠️ 注意：投影仪请勿直接断电，需用遥控器关闭后等待3分钟再断电";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-4').addEventListener('click', function() {
+            var text = "打开洗衣机门，放入衣物和洗衣液，关闭门后按电源键，再按启动键即可\n⚠️ 注意：请勿放入过多衣物，避免洗衣机损坏";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-5').addEventListener('click', function() {
+            var text = "先打开燃气阀门，再按燃气灶开关，按住3秒后松开即可点火\n⚠️ 注意：使用后请关闭燃气阀门，避免漏气";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-6').addEventListener('click', function() {
+            var text = "续住请提前1天告知，价格和之前一样，直接转账即可\n⚠️ 注意：节假日价格可能会有浮动，以实际为准";
+            copyText(this, text);
+        });
+
+        // 常见问题复制按钮（24个）
+        document.getElementById('copy-faq-1').addEventListener('click', function() {
+            var text = "正常退房时间是中午12点，如果您需要延迟退房，根据我们的规定，每延迟一小时将收取50元费用。如果您能给我们一个五星好评（图片+文字），我们可以为您免费延迟半小时退房。这是我们对您支持的小小感谢！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-2').addEventListener('click', function() {
+            var text = "WiFi名称是：China net XM+房间号，密码是：19910000。如果您连接不上，请尝试关闭手机WiFi重新连接，或者重启路由器。如果还是不行，请随时联系我们！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-3').addEventListener('click', function() {
+            var text = "入住时间是下午2点以后，退房时间是中午12点。如果您提前到达，我们可以先为您办理入住手续，行李可以放在前台，房间打扫好后我们会第一时间通知您。退房后您也可以把行李放在前台，免费寄存！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-4').addEventListener('click', function() {
+            var text = "酒店游泳池目前是收费的，38元一位，具体价格和开放时间请咨询游泳池入口。从我们民宿走到游泳池只需要2分钟，非常方便！游泳池对面就是海滩入口哦！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-5').addEventListener('click', function() {
+            var text = "小区停车位全部都是免费的！您可以停在地面，也可以停在地下停车场。充电桩在酒店区域，快充慢充都有，具体位置可以问我们。停车非常方便，不用担心！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-6').addEventListener('click', function() {
+            var text = "先到酒店区域，找到酒店游泳池，游泳池正对面就是海滩的入口！从您的房间走到海滩大约5-10分钟，全程不用出小区，非常安全方便！海滩是棋子湾最美的私人海滩哦！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-7').addEventListener('click', function() {
+            var text = "美团外卖可送达至小区房间门口，外卖地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓栋数+房间号（比如21-205号）。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-8').addEventListener('click', function() {
+            var text = "如您需要邮寄快递到民宿，地址为海南省昌江黎族自治县北斗西路8号群升海南万国棋子湾公寓21栋寻美棋子湾民宿，您的名字+电话（快递只有顺丰，京东，可以送到小区，其他快递需要您到昌化镇自提。）";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-9').addEventListener('click', function() {
+            var text = "21栋（21栋412和21栋413除外）和22栋（22栋220除外）的空调电源键在墙壁上，点亮控制面板上方圆形按钮，亮起绿灯空调就打开了。\n23栋的空调电源键在墙壁上，点击电源键开关即可打开。\n21栋412，21栋413，22栋220以及套房为挂式空调，遥控器（通用款，挂式空调都可打开）即可打开空调，如空调打不开，可能是遥控器电视没电，请及时联系我。\nA.空调仅有制冷功能哦，没有制热功能，为了让空调更好的降温，请打开空调后先调至25℃吹30分钟，再将空调调至16℃（不可直接调至16℃哦）。\nB.房间内外温差大的话会造成墙壁和地板有水渍，属于正常情况，空调可以开除湿，或者开门通风就好。空调打开时门窗也需关闭，否则也会造成墙壁和地板有水渍。\nC. 如果挂式空调无法正常开启，a.请检查插头与插座是否松动，松动请重新插上。b.或长按3秒空调伴侣再重新开启空调。c. 检查电视下方的Wi-Fi机顶盒或路由器是否没有插上电。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-10').addEventListener('click', function() {
+            var text = "21栋22栋23栋均为电热水器，如按照热水器上操作指引，热水器不亮灯，无法打开热水器，请及时联系我。\n17栋18栋19栋为燃气热水器，您先观看如下视频，首先检查，厨房下燃气表，是否显示数字，其次检查热水器插座是否通电，最后按热水器屏幕开关，水池试水温。燃气热水器工作时会有比较大的声音，如调整后还是无声音无热水请及时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-11').addEventListener('click', function() {
+            var text = "21栋202，21栋506，21栋611（开关在沙发背后墙壁上），21栋810，为投影仪房间，您可先观看如下视频，按照步骤打开投影仪，F+F-可调整清晰度，找到视频中画面投影设置四边梯形校正后观看投影。\n其余房间都是电视机，其中22栋220电视开机指南为如下视频，您可先观看，按照步骤打开电视，TCL标志下方有三个按钮，长按中间按钮可以开机，确认机顶盒亮灯后，调至信号源HDMI1为数字电视，可观看直播。22栋415电视开机指南为如下视频，您可先观看，按照步骤打开电视，电视左下方有一个按钮，长按可以开机。18栋403电视开机指南为如下视频，您可先观看，按照步骤打开电视。19栋501电视开机指南为如下视频，您可先观看，按照步骤打开电视。如您还是无法打开电视找到频道，请及时联系我哦。\n如您需观看网络电视，民宿有芒果TV电视会员，您可登陆芒果TV观看，如账号过期请及时联系我登陆账号。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-12').addEventListener('click', function() {
+            var text = "洗衣液在洗衣机旁边，如您需要补充洗衣液请及时联系我，民宿的滚筒洗衣机使用指南视频如下，洗衣机开门时请看黄色警惕标识，要等待2分钟方可打开洗衣机门，如洗衣机红灯频闪，可能为进水和排水问题，检查进水总阀是否打开，检查排水管是否顺利排水，若洗衣机还是无法正常运行，请及时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-13').addEventListener('click', function() {
+            var text = "如厨房下燃气表显示燃气有剩余，且燃气热水器可正常工作有热水，但燃气灶打不开火，可能是燃气灶电池没电，请及时联系我，我们会过去更换电池。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-14').addEventListener('click', function() {
+            var text = "如您需要续住，请扫本店收款码支付房费，以便我们给您留房，您无须再次登记和缴纳押金，留房后我们会给您更新房间密码。\n续住期间如有打扫请提前告知我们，布草（床上用品）为一客一换，续住期间不更换布草哦，感谢您的支持与理解~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-15').addEventListener('click', function() {
+            var text = "如您对房间不满意，在未使用布草（床上用品）和洗手间的前提下，可给您免费换房或退房费，换房或退房费请联系我。我们不支持钟点房需求，如您使用了布草（床上用品）和洗手间，便无法给您换房和退房费，还望您理解~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-16').addEventListener('click', function() {
+            var text = "您好，我们民宿的小程序为平台直连系统路客云app小程序，对您上传的身份信息严格保密，如有疑问可咨询平台客服，若您是在美团民宿或途家平台预定的房间，可在平台上办理入住和缴纳押金后截图发我就可以啦，我备注好信息后通知老板，给您直接发房间密码哦~\n您好，民宿需要支付押金是因为我们不是一整栋的宾馆，我们为分散开放房源，出入房间无人监控，交押金相当于门禁，目的是保护业主私人财物，还请您离开房间时关好房门，押金的退还时间是退房当日晚上8点系统自动退还，为原路返回，如您需要提前退押金，请联系我们手动给您退还，后续有任何押金问题都可随时联系我。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-17').addEventListener('click', function() {
+            var text = "布草（床单，被罩，枕套）有污渍或有毛发等卫生问题（包含房间其他卫生问题，有蚊虫蟑螂）时，需答复客人：非常抱歉，是我们打扫的失误，我尽快联系管家给您更换新布草（或我尽快联系管家过去清洁）。如果超过晚上9点，管家下班了，直接答复客人：非常抱歉，管家已下班，我现在联系老板，这边通过平台给您退30块，您看可以吗？如果客人回答\"可以\"或\"好的\"，需答复客人：好的您稍等，我们现在联系平台，后续平台也会给您打电话跟您沟通的，您注意手机电话。\n客人需要加被子和枕头时，需要答复：好的，我通知管家给您拿过去，我们直接给您放到房间里，您看可以吗？\n客人需要加床，需要答复：我们所有房间不可加床哦，如您想睡沙发的话，我们可以给您加被子和枕头，或给您推荐其他大床房。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-18').addEventListener('click', function() {
+            var text = "如您需要微波炉热饭，我们办公室在21栋205，可在早上9点上班后过来哦。\n21栋22栋23栋没有厨房用品，您可自备厨具，退房时请将厨房墙面及台面清洁干净哦，感谢您的支持与配合！\n17栋18栋19栋使用厨房，温馨提示：A.如您只入住一天，厨房不免费开火哦，入住两天以上或（图片+文字的）全全全全五星好评可免费开火。B.使用厨房后需自行清理干净，包含清洁台面及墙面，并归还原位，否则会收取50元清洁费用。C.烹饪食物时请勿离开，注意用火用电安全。感谢您的理解与配合！\n您好，使用厨房后，请在退房前收拾干净厨房台面及墙面哦，物品归置原位。由于保洁阿姨打扫套房要1小时，若厨房脏乱会增加打扫时长至2小时，并影响后续客人入住时间，感谢您对我们的支持与理解！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-19').addEventListener('click', function() {
+            var text = "如客人需要增加抽纸，卷纸，牙刷，牙膏，梳子，香皂，马桶套，浴巾，垃圾袋，瓶装水，洗手液，维e乳，沐浴露，洗发水，护发素，洗衣液，插排，吹风机，驱蚊水，蚊香液，暖宝宝，碘酒，创可贴，统一回复：好的，我通知管家给您送过去，直接敲门询问，还是给您挂在房间门口呢？\n如客人需要一次性拖鞋，剃须刀，药物，统一回复：非常不好意思，我们不提供一次性拖鞋（或剃须刀，药物）。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-20').addEventListener('click', function() {
+            var text = "如客人提到房间有臭味，回复客人：好的，您稍等，我通知管家过去查看，有可能是下水道反臭，您可先打开房间窗户和门通风。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-21').addEventListener('click', function() {
+            var text = "您好，小区停车位全是免费的，充电桩是在万国酒店快充/慢充都有，快充位置，在酒店大堂对面，路面上，我发定位给您。慢充位置，在酒店负一楼，地下停车场。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-22').addEventListener('click', function() {
+            var text = "如您咨询合作问题，请告知我合作具体方式（包括但不限于买卖房屋，装修托管等），同时留下联系方式（微信，电话都可以）方便我告知老板；\n如您咨询长租问题，请告知我长租具体日期和时间段，以及长租房型（大床，双床或两室一厅，一室一厅套房），例如从2026年3月10日至2026年4月9日，一个月，两室一厅套房。我们会根据长租时间，房型和楼层给您报价的，您稍等。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-23').addEventListener('click', function() {
+            var text = "民宿可以带宠物入住，但不要让宠物上床和沙发，并在退房离店时收拾干净自家小可爱的随身用品哦~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-faq-24').addEventListener('click', function() {
+            var text = "离民宿最近的是昌化镇卫生院（距离7公里左右，开车10多分钟），电话13637503990、26771799，您可先打电话咨询。也可去东方市人民医院（新院区）（距离40公里左右，开车1小时），电话38961277，您可先打电话咨询。";
+            copyText(this, text);
+        });
+        
+        // 好评问答复制按钮（7个）
+        document.getElementById('copy-review-1').addEventListener('click', function() {
+            var text = "我们入住时间为下午2点，如您需要提前办理入住，我们会生成下午2点前的房间密码，以便您出入房间，正常提前一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？\n我们退房时间为中午12点，如您需要延迟退房，我们会生成中午12点后的房间密码，以便您出入房间，正常延迟一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-2').addEventListener('click', function() {
+            var text = "比如东西有轻微损坏不影响不大，回复客人：您好，中午退房时候检查发现了××（损坏，破洞，等等）。按照赔付表格里的需要您赔付×元。但是损坏不大，您给我们写一个（图片+文字的）全全全全五星好评，就不扣您任何费用了。押金给您全额退回，希望您旅途愉快！";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-3').addEventListener('click', function() {
+            var text = "我们民宿可以开发票，如果您给我们（图片+文字的）全全全全五星好评，我们可以多开发票金额（随您的要求和意愿）您退房后可以给全全全全五星好评吗？";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-4').addEventListener('click', function() {
+            var text = "我们民宿可以免费租用赶海工具需在退房后帮忙写一个五星好评\"图片+文字\"，赶海工具退房后放在房间里就可以了。或者可以送您便携早餐，需在退房后帮忙写一个（图片+文字的）全全全全五星好评，就可以了。";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-5').addEventListener('click', function() {
+            var text = "退房后发现非连住客人使用厨房，回复客人：您好，我们只住一天开火费50元，因为打扫特别麻烦，但是没关系，您给我们一个（图片+文字的）全全全全五星好评)这个费用就不收您啦~请记得截图给我~";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-6').addEventListener('click', function() {
+            var text = "您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付。由于地方偏远，顺丰今天或明天才能上门哦，您耐心等等（顺丰下单后，您使用提供的手机号登录顺丰小程序即可查看订单状态）。对了，您觉得我们服务满意的话，请给我们（图片+文字的）全全全全五星好评，您看可以吗？再次感谢啦~!";
+            copyText(this, text);
+        });
+        document.getElementById('copy-review-7').addEventListener('click', function() {
+            var text = "您好，这边（图片+文字的）全全全全五星好评给可以您免费升级个房型，比您之前预定房间更好，您看需要吗？";
+            copyText(this, text);
+        });
+
+        // 常见问题搜索功能（绝对可靠版）
+        document.addEventListener('DOMContentLoaded', function() {
+            var searchInput = document.getElementById('faq-search-input');
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    var keyword = this.value.toLowerCase();
+                    var items = document.querySelectorAll('.faq-item');
+                    items.forEach(function(item) {
+                        var title = item.getAttribute('data-title').toLowerCase();
+                        if (title.includes(keyword)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        });
+
+        // 复制视频链接（12个视频）
+        var videoBaseUrl = '';  // 自动获取当前域名
+        document.getElementById('copy-video-1').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v1.mp4');
+        });
+        document.getElementById('copy-video-2').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v2.mp4');
+        });
+        document.getElementById('copy-video-3').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v3.mp4');
+        });
+        document.getElementById('copy-video-4').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v4.mp4');
+        });
+        document.getElementById('copy-video-5').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v5.mp4');
+        });
+        document.getElementById('copy-video-6').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v6.mp4');
+        });
+        document.getElementById('copy-video-7').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v7.mp4');
+        });
+        document.getElementById('copy-video-8').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v8.mp4');
+        });
+        document.getElementById('copy-video-9').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v9.mp4');
+        });
+        document.getElementById('copy-video-10').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v10.mp4');
+        });
+        document.getElementById('copy-video-11').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v11.mp4');
+        });
+        document.getElementById('copy-video-12').addEventListener('click', function() {
+            copyText(this, videoBaseUrl + 'v12.mp4');
+        });
+
+        // 图片预览功能
+        function showPreview(imgSrc) {
+            document.getElementById('preview-big-img').src = imgSrc;
+            document.getElementById('img-preview-lightbox').style.display = 'block';
+        }
     </script>
 
+
+
+
+
+
+            
             
             <!-- 好评问答页面 -->
-            >
+            <div id="page-reviews" class="page-content hidden">
+                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
+                    <div class="px-6 py-4">
+                        <h2 class="text-xl font-bold text-gray-800">好评问答</h2>
+                    </div>
+                </header>
+                <div class="p-4 lg:p-6">
+                    <div class="max-w-3xl mx-auto space-y-4">
+                        
+                        <div class="bg-primary/5 rounded-xl p-4">
+                            <p class="text-sm text-primary font-medium">⭐ 全五星好评兑换以下福利（7选1）：</p>
+                            <div class="mt-2 text-xs text-gray-600 space-y-1">
+                                <p>A. 免费延迟/提前入住一小时</p>
+                                <p>B. 免布草（或设施）赔付</p>
+                                <p>C. 多开发票金额（随您的要求和意愿）</p>
+                                <p>D. 免费租用赶海工具一套</p>
+                                <p>E. 便携早餐一份（D/E二选一）</p>
+                                <p>F. 免开火费50元</p>
+                                <p>G. 入住前免费升级房型</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">A. 提前入住或延迟退房</h3>
+                                <button id="copy-review-1" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-orange-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>我们入住时间为下午2点，如您需要提前办理入住，我们会生成下午2点前的房间密码，以便您出入房间，正常提前一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？</p>
+                                <p class="mt-2">我们退房时间为中午12点，如您需要延迟退房，我们会生成中午12点后的房间密码，以便您出入房间，正常延迟一小时为50元，如您退房后给我们一个全五星好评+图片，可以给您免费延迟，您看可以吗？</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">B. 客人导致布草或房间设施破损</h3>
+                                <button id="copy-review-2" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-red-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>比如东西有轻微损坏不影响不大，回复客人：您好，中午退房时候检查发现了××（损坏，破洞，等等）。按照赔付表格里的需要您赔付×元。但是损坏不大，您给我们写一个（图片+文字的）全全全全五星好评，就不扣您任何费用了。押金给您全额退回，希望您旅途愉快！</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">C. 开发票</h3>
+                                <button id="copy-review-3" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-blue-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>我们民宿可以开发票，如果您给我们（图片+文字的）全全全全五星好评，我们可以多开发票金额（随您的要求和意愿）您退房后可以给全全全全五星好评吗？</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">D. 租用赶海工具或需要早餐</h3>
+                                <button id="copy-review-4" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-purple-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>我们民宿可以免费租用赶海工具需在退房后帮忙写一个五星好评"图片+文字"，赶海工具退房后放在房间里就可以了。或者可以送您便携早餐，需在退房后帮忙写一个（图片+文字的）全全全全五星好评，就可以了。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">E. 客人使用厨房</h3>
+                                <button id="copy-review-5" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-yellow-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>退房后发现非连住客人使用厨房，回复客人：您好，我们只住一天开火费50元，因为打扫特别麻烦，但是没关系，您给我们一个（图片+文字的）全全全全五星好评)这个费用就不收您啦~请记得截图给我~</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">F. 客人物品遗落</h3>
+                                <button id="copy-review-6" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-cyan-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>您好，您的东西忘记拿了，别担心，我们给您寄送过去，请告知我收件人+手机号+地址，顺丰到付。由于地方偏远，顺丰今天或明天才能上门哦，您耐心等等（顺丰下单后，您使用提供的手机号登录顺丰小程序即可查看订单状态）。对了，您觉得我们服务满意的话，请给我们（图片+文字的）全全全全五星好评，您看可以吗？再次感谢啦~!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl card-shadow p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <h3 class="font-bold text-gray-800">G. 入住前免费升级房型</h3>
+                                <button id="copy-review-7" class="copy-btn border border-gray-200 text-gray-500 px-3 py-1 rounded-lg text-xs transition-all">
+                                    <i class="fa fa-copy"></i> 复制
+                                </button>
+                            </div>
+                            <div class="bg-green-50 rounded-lg p-4 text-sm text-gray-700">
+                                <p>您好，这边（图片+文字的）全全全全五星好评给可以您免费升级个房型，比您之前预定房间更好，您看需要吗？</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- 图片视频页面 -->
+            <div id="page-media" class="page-content hidden">
+                <header class="bg-white shadow-sm sticky top-0 z-30 hidden lg:block">
+                    <div class="px-6 py-4">
+                        <h2 class="text-xl font-bold text-gray-800">图片视频素材库</h2>
+                        <p class="text-sm text-gray-500 mt-1">常用图片和视频素材，一键下载使用</p>
+                    </div>
+                </header>
+                <div class="p-4 lg:p-6">
+                    <div class="max-w-4xl mx-auto">
+                        
+                        <!-- 入住流程图片 -->
+                        <div class="mb-8">
+                            <h3 class="font-bold text-gray-800 mb-4 flex items-center">
+                                <i class="fa fa-image text-blue-500 mr-2"></i>入住流程图片
+                            </h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                
+                                <!-- step-1 -->
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <div class="aspect-video bg-gray-100 flex items-center justify-center">
+                                        <img src="step-1.jpg" alt="第1步确认订房" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<p class=\'text-gray-400 text-sm\'>step-1.jpg</p>'">
+                                    </div>
+                                    <div class="p-4">
+                                        <h4 class="font-semibold text-sm text-gray-800">第1步：确认订房</h4>
+                                        <p class="text-xs text-gray-500 mt-1">订房信息确认+房间定位指引</p>
+                                        <button onclick="downloadImage('step-1.jpg')" class="mt-3 w-full bg-blue-50 text-primary text-xs py-2 rounded-lg hover:bg-blue-100 transition-all">
+                                            <i class="fa fa-download mr-1"></i>下载图片
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- step-2 -->
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <div class="aspect-video bg-gray-100 flex items-center justify-center">
+                                        <img src="step-2.jpg" alt="第2步扫码登记" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<p class=\'text-gray-400 text-sm\'>step-2.jpg</p>'">
+                                    </div>
+                                    <div class="p-4">
+                                        <h4 class="font-semibold text-sm text-gray-800">第2步：扫码登记</h4>
+                                        <p class="text-xs text-gray-500 mt-1">入住登记二维码</p>
+                                        <button onclick="downloadImage('step-2.jpg')" class="mt-3 w-full bg-blue-50 text-primary text-xs py-2 rounded-lg hover:bg-blue-100 transition-all">
+                                            <i class="fa fa-download mr-1"></i>下载图片
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- step-3 -->
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <div class="aspect-video bg-gray-100 flex items-center justify-center">
+                                        <img src="step-3.jpg" alt="第3步登记车牌" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<p class=\'text-gray-400 text-sm\'>step-3.jpg</p>'">
+                                    </div>
+                                    <div class="p-4">
+                                        <h4 class="font-semibold text-sm text-gray-800">第3步：登记车牌</h4>
+                                        <p class="text-xs text-gray-500 mt-1">停车位示意图</p>
+                                        <button onclick="downloadImage('step-3.jpg')" class="mt-3 w-full bg-blue-50 text-primary text-xs py-2 rounded-lg hover:bg-blue-100 transition-all">
+                                            <i class="fa fa-download mr-1"></i>下载图片
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- step-5 -->
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <div class="aspect-video bg-gray-100 flex items-center justify-center">
+                                        <img src="step-5.jpg" alt="第5步电闸热水器" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<p class=\'text-gray-400 text-sm\'>step-5.jpg</p>'">
+                                    </div>
+                                    <div class="p-4">
+                                        <h4 class="font-semibold text-sm text-gray-800">第5步：电闸热水器</h4>
+                                        <p class="text-xs text-gray-500 mt-1">电闸位置+热水器开关</p>
+                                        <button onclick="downloadImage('step-5.jpg')" class="mt-3 w-full bg-blue-50 text-primary text-xs py-2 rounded-lg hover:bg-blue-100 transition-all">
+                                            <i class="fa fa-download mr-1"></i>下载图片
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- step-7 -->
+                                <div class="bg-white rounded-xl card-shadow overflow-hidden">
+                                    <div class="aspect-video bg-gray-100 flex items-center justify-center">
+                                        <img src="step-7.jpg" alt="第7步反锁提醒" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<p class=\'text-gray-400 text-sm\'>step-7.jpg</p>'">
+                                    </div>
+                                    <div class="p-4">
+                                        <h4 class="font-semibold text-sm text-gray-800">第7步：反锁提醒</h4>
+                                        <p class="text-xs text-gray-500 mt-1">房门反锁演示</p>
+                                        <button onclick="downloadImage('step-7.jpg')" class="mt-3 w-full bg-blue-50 text-primary text-xs py-2 rounded-lg hover:bg-blue-100 transition-all">
+                                            <i class="fa fa-download mr-1"></i>下载图片
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- 使用说明 -->
+                        <div class="bg-yellow-50 rounded-xl p-4">
+                            <p class="text-xs text-yellow-800">
+                                <i class="fa fa-lightbulb-o mr-1"></i>
+                                <strong>使用说明：</strong>将图片文件和index.html放在同一个文件夹上传即可显示。点击"下载图片"按钮可直接下载发送给客人。
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+<!-- 图片预览灯箱 -->
+<div id="img-preview-lightbox" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:999999;">
+    <div style="position:absolute;top:20px;right:30px;color:white;font-size:40px;cursor:pointer;" onclick="document.getElementById('img-preview-lightbox').style.display='none'">&times;</div>
+    <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+        <img id="preview-big-img" style="max-width:90%;max-height:90%;" src="">
+    </div>
+</div>
+
+</body>
+</html>
